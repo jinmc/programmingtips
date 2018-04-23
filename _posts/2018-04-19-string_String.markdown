@@ -6,14 +6,11 @@ categories: programming knowledges
 
 string is an alias of String in C#.
 
-That means, it would just call the class String
-without the directive of "using System.String;" in the above.
+That means, it would just call the class String without the directive of "using System.String;" in the above.
 
 What I really wanted to point out was that 
 string, and also String, is a class.
-
 This didn't occur to me even though I was using string every day.
-
 But today, it occurred to me that ints had nullable types... 
 of which Java did not have.. 
 
@@ -24,12 +21,10 @@ another data structure I'm not that familiar of...
 So that means, string is not a struct!
 Because structs should not be null, 
 and I saw a string become null and the compiler was fine...
-
 And that was when the fact that string is a class really occurred to me. 
 
 So.. I guess knowing the difference between structs and classes was the 
-key here.. 
-
+key here.
 By the way, this is a funny stack-overflow article I saw about structs 
 and classes.. 
 
