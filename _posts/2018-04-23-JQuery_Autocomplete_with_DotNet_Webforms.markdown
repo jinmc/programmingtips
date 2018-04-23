@@ -13,7 +13,7 @@ Today I wanted to write how I implemented Jquery autocomplete feature with sql s
 So to use Jquery, you should first call the jquery libraries in the html page, 
 which I have done in the aspx page like this :
 
-{% highlight ruby %}
+{% highlight csharp %}
     <script type="text/javascript" src="Scripts/jquery-1.12.4.js"></script>
     <script type="text/javascript" src="Scripts/jquery-ui-1.12.1.js"></script>
     <link rel="stylesheet" type="text/css" href="Content/jquery-ui.css" />
