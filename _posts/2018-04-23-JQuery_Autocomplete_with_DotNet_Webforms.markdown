@@ -89,7 +89,7 @@ just the part we need for the autocomplete function which would be..
                             }
                             else
                             {
-                                vendorList += ", \"" + reader["someThinf"].ToString() + "\"";
+                                vendorList += ", \"" + reader["someThing"].ToString() + "\"";
                             }
                         }
                     }
