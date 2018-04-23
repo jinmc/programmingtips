@@ -85,11 +85,11 @@ just the part we need for the autocomplete function which would be..
                         {
                             if (string.IsNullOrEmpty(someList))
                             {
-                                vendorList += "\"" + reader["someThing"].ToString() + "\"";
+                                someList += "\"" + reader["someThing"].ToString() + "\"";
                             }
                             else
                             {
-                                vendorList += ", \"" + reader["someThing"].ToString() + "\"";
+                                someList += ", \"" + reader["someThing"].ToString() + "\"";
                             }
                         }
                     }
