@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "SSD Harddrive Lock with ATA security "
+date:   2018-04-24
+categories: jekyll update
+---
+
+Never knew about this, but we can lock in the level of hard drive!
+
+As I work in a computer company, there are RMAs.. (Return merchandise authorization)
+and some of them has harddrive locks in them.
+
+As I 've never seen them before, I was really interested in them,
+and even found out about linux and setting harddrive states.
+We can use hdparm to set states!
+
+
+http://www.admin-magazine.com/Archive/2014/19/Using-the-ATA-security-features-of-modern-hard-disks-and-SSDs
