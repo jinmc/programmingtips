@@ -24,3 +24,13 @@ For starting node,
    
 3. Install the create-react-app package by typing the command : 
 	<strong>npm install -g create-react-app</strong>
+	
+4. Create a new folder or directory for your project, then navigate to it using Terminal, Command Prompt, etc.
+
+5. Create the project by typing the command : <strong>create-react-app lists</strong>
+
+6. This will create a "lists" directory and install the default React app there. You can start it by changing to the "lists"
+directory and typing the command : <strong>npm start</strong>
+
+You should then be able to access <strong>http://localhost:3000</strong> using your web browser and 
+see the default React app. If so, you're ready to proceed.
