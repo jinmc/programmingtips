@@ -20,4 +20,7 @@ For starting node,
 1. Install Node.js locally by downloading it from https://nodejs.org/en/download
 
 2. From the Terminal, Command Prompt, etc. update Node Package Manager by typing the command :
-   <bold>npm install npm -g</bold>
+   <strong>npm install npm -g</strong>
+   
+3. Install the create-react-app package by typing the command : 
+	<strong>npm install -g create-react-app</strong>
