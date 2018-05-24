@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Javascript let vs var"
 date:   2018-05-08
 categories: jekyll update

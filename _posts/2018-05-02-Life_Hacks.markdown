@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Life Hacks from a 30 year old to 23 year old"
 date:   2018-05-02
 categories: jekyll update

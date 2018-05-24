@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Bind function in Javascript/React"
 date:   2018-05-08
 categories: jekyll update
