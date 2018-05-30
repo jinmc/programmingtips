@@ -1,0 +1,84 @@
+---
+layout: post
+comments: true
+title:  "Include function with entity framework"
+date:   2018-05-30
+categories: jekyll update
+---
+
+Before I begin, I would like to refer to some links I have read for additional explanation,
+because this is a huge subject, and there are many aspects to it.
+
+Lazy Loading vs Eager Loading : https://www.c-sharpcorner.com/UploadFile/b1df45/lazy-loading-vs-eager-loading/
+Include Function in Entity Framework : http://foreverframe.net/when-use-include-with-entity-framework/
+Select N+1 Problem : https://www.codeproject.com/Articles/102647/Select-N-Problem-How-to-Decrease-Your-ORM-Perfor
+
+To write about this, I would have to refer to another big topic which is 
+eager loading vs lazy loading, because without these concepts it would be impossible 
+why we are using include function.
+
+When I first started using EF, I thought of it as brilliant that I didn't have to 
+write SQL statements and use all sorts of sqlDataReader and SqlAdapter and 
+those things.. but I didn't  really appreciate what was the advantage of it.
+Also, I didn't know that when I am using ORM such as EF, the default was lazy loading.
+
+So, to make a simple explanation about lazy loading and eager loading, 
+lazy loading is executing the query just when it's needed,
+and eager loading is executing the query at the beginning, 
+assuming that the results are the same. 
+
+I didn't know it, but I even used eager loading
+while not even realizing it.
+
+Lazy loading is cool. 
+With lazy loading, we can actually get 
+all the database into code and just not call them
+and we are going to be fine because it's not loaded!
+
+The benefit of this is that as we got the database from the backend ,
+we can use intellisense and ORM based on it.
+
+Now, I'll provide an example that I used eager loading 
+without even noticing.. (hillarious, when thinking about it.. )
+
+so, the case is that I have two tables.. 
+
+PO table and PODetail table.
+The PO table has ponumber, and other things.. but basically it's the parent table.
+
+the PODetail table has the specs... and also the qty of each by its specs.
+
+What I would like to do was go over each details and...
+
+to be continued...
+
+
+{% highlight csharp %}
+
+{% endhighlight %}
+
+
+{% if page.comments %} 
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-jinmc-github-io-programmingtips.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+ {% endif %}
