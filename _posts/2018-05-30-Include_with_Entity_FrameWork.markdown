@@ -48,9 +48,9 @@ The PO table has ponumber, and other things.. but basically it's the parent tabl
 
 the PODetail table has the specs... and also the qty of each by its specs.
 
-What I would like to do was go over each details and...
+What I would like to do was go over each details and
+get the same item with same specs.
 
-to be continued...
 
 
 {% highlight csharp %}
