@@ -1,0 +1,74 @@
+---
+layout: post
+comments: true
+title:  "Testing in ASP.NET"
+date:   2018-06-26
+categories: jekyll update
+---
+
+When I first started programming, testing seemed like a fairy tale to me.
+I could not even code, let alone testing. 
+
+But now, after coding in professional experiences,  I started to realize the importance 
+of testing.
+
+But the problem is, it is so hard to make test on current functions or classes
+because right now it's hard to control the scenarios especially when the scenarios include external db.. 
+
+And that's why you need TDD.. (Test driven development.. ) 
+That turns the paradigm of programming totally different... 
+
+so how I first implemented this program was, 
+I made a Method class, which had all the methods to handle the db or handle the scenarios,
+and called it from the cs file which is the backend file of the view of the implementation.
+
+There was no reason for implementing the program this way,
+just did it because the previous guy did it this way.
+
+I had no opinion about this, 
+but as I thought of it as TDD, 
+it would be very inefficient to make every tests 
+for each methods.
+
+So I made the application again from the start,
+just leaving the ui itself from the previous version.
+
+Instead, I made classes for each scenarios,
+for example, I made a class for input, and made a status integer inside to 
+indicate the status to check for errors in the constructor.
+
+And I would make tests regarding the status
+of the classes.
+
+Overall, 
+it's good to do tdd, but it's really hard when db is included.
+
+{% highlight csharp %}
+
+{% endhighlight %}
+
+
+{% if page.comments %} 
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-jinmc-github-io-programmingtips.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+ {% endif %}
