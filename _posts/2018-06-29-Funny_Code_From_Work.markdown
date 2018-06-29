@@ -42,7 +42,9 @@ s.isNullOrEmpty();
 
 {% endhighlight %}
 
-
+Also there is a stackoverflow post regarding this if anyone 
+is looking for further references : 
+https://stackoverflow.com/questions/1795808/and-and-or-in-if-statements
 
 {% if page.comments %} 
 <div id="disqus_thread"></div>
