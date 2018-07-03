@@ -41,21 +41,40 @@ we can use intellisense and ORM based on it.
 Now, I'll provide an example that I used eager loading 
 without even noticing.. (hillarious, when thinking about it.. )
 
-so, the case is that I have two tables.. 
+so, the case is that I have a product
+and I need to find products that have products for a specific skid.
 
-PO table and PODetail table.
-The PO table has ponumber, and other things.. but basically it's the parent table.
+And I want to insert a data that has the product IDs in it.. 
+so what I did is, 
 
-the PODetail table has the specs... and also the qty of each by its specs.
-
-What I would like to do was go over each details and
-get the same item with same specs.
-
+I got a list of indexes 
 
 
 {% highlight csharp %}
 
+            string sql = $"select idx from <tableName> " +
+                         $"where <skidIndex> = {skidNumInt}";
+						 
+            List<string> resList = Utils.getQueryRecordWithMonoArray(sql);
+            List<int> resIntList = new List<int>();
+            foreach (string s in resList)
+            {
+                int i = 0;
+                int.TryParse(s, out i);
+                resIntList.Add(i);
+            }
+			
+			foreach (int i in resIntList)
+            {
+					do query... with i... 
+            }
+			
 {% endhighlight %}
+
+This was using eager loading without even noticing.
+It would be nice to implement this with include..
+
+
 
 
 {% if page.comments %} 

@@ -1,0 +1,72 @@
+---
+layout: post
+comments: true
+title:  "Contemplation about UPenn Computer Science"
+date:   2018-07-03
+categories: jekyll update
+---
+
+I graduated from Penn and got a dual degree for materials science and computer science.
+It was a great experience, and I really appreciate to have that kind of exprerience,
+but there was one problem.
+
+It was so difficult, especially to me, who had no prior coding experience before.
+I was confused with even the easiest concepts, and had difficulty with problems
+my classmates could solve easily.
+It was the first time ever in my life that I felt that I am so stupid. 
+
+But to think about it,  Penn MCIT originally is a very selective program, 
+and accepts students that already have a lot of coding experience,
+which makes the average go way high.
+
+Of course, there are exceptions like me that took one or two classes from Penn
+about computer science and then the school accepts me out of pity.
+
+I think (not sure) that there might be students not be able to code even as much as me,
+but I was definetly at the bottom 50% of the class.
+
+But on the other side, 
+they just don't provide enough.
+
+They just assume that you will know everything.
+
+And this is sometimes good, because it makes you to teach yourself the neede knowledge,
+but sometimes, it's just frustrating because it's too much.
+
+Even after I graduated, I'm taking this course named Programming for the web,
+and it teaches javascript widely.
+
+And the 4th and 5th homework was about React, 
+and they don't provide enough information for React components and stuff!
+It was so hard to do the homework.. and 5th homework was almost impossible to do 
+with only the course provided information.
+
+Anyway, that was my though about Penn CS.
+
+Surely if I had gone to an easier school, I would've had easier classes and higher GPAs,
+but this was what I've got and I think it would help in the long run.
+
+{% if page.comments %} 
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-jinmc-github-io-programmingtips.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+ {% endif %}
