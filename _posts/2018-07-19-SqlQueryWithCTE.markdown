@@ -1,13 +1,22 @@
 ---
 layout: post
 comments: true
-title:  "IEnumerable vs IQueryable"
-date:   2018-05-10
-categories: jekyll update
+title:  "sql query with cte"
+date:   2018-07-19
+categories: sqlquery
 ---
 
-There are two datatypes in C# .NET, which are IEnumerable, and IQueryable as well.
+Webforms and MVC are very much different, even in simple things as creating a form and retrieving information from them.
+In Webforms, creating dropdownlists was so easy...
 
+{% highlight csharp %}
+	<asp:DropDownList id = "itemDdl" runat="server">
+		<asp:ListItem Text ="Item1" Value ="1"></asp:ListItem>
+     		<asp:ListItem Text ="Item2" Value ="2"></asp:ListItem>
+		<asp:ListItem Text ="Item3" Value ="3"></asp:ListItem>
+	</asp:DropDownList>
+
+{% endhighlight %}
 
 {% if page.comments %} 
 <div id="disqus_thread"></div>

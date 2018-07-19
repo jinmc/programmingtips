@@ -1,17 +1,22 @@
 ---
 layout: post
 comments: true
-title:  "IEnumerable vs IQueryable"
-date:   2018-05-10
+title:  "Javascript for loops"
+date:   2018-07-11
 categories: jekyll update
 ---
+In JavaScript, I am looking into looping, and there are certain ways to loop.
+Of course there are basic things as for loop, while loop, do while loop, .. 
+but there are two new (to me..) loops, which are for in loop, and for out loop.
 
-There are two datatypes in C# .NET, which are IEnumerable, and IQueryable as well.
+The description of for-in loop :
+"This loop iterates (in an arbitrary order) over the name of each enumerable property in an object, 
+allowing statements to be executed for each distinct property."
 
-
-{% if page.comments %} 
-<div id="disqus_thread"></div>
-<script>
+and description of for-of loop :
+"This loop iterates over iterable objects such as an Array, Map, Set, String, TypedArray, arguments object, etc.
+It essentially iterates over the value of each distinct property in the structure, 
+such as each letter in a word or each element in an array."
 
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.

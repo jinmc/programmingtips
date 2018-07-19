@@ -4,4 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 sidebar: mydoc_sidebar
+title: Jinmo's ProgrammingTips
 ---
