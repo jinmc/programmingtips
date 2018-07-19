@@ -18,6 +18,10 @@ and description of for-of loop :
 It essentially iterates over the value of each distinct property in the structure, 
 such as each letter in a word or each element in an array."
 
+{% if page.comments %} 
+<div id="disqus_thread"></div>
+<script>
+
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
