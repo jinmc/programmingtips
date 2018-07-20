@@ -1,20 +1,22 @@
 ---
 layout: post
 comments: true
-title:  "Selecting Text from dropdownlist in MVC ASP.net"
-date:   2018-07-11
-categories: asp.netmvc
+title:  "React Basics"
+date:   2018-07-20
+categories: sqlquery
 ---
 
-Webforms and MVC are very much different, even in simple things as creating a form and retrieving information from them.
-In Webforms, creating dropdownlists was so easy...
+Reference : programming for the web (Edx)
 
-{% highlight csharp %}
-	<asp:DropDownList id = "itemDdl" runat="server">
-		<asp:ListItem Text ="Item1" Value ="1"></asp:ListItem>
-     		<asp:ListItem Text ="Item2" Value ="2"></asp:ListItem>
-		<asp:ListItem Text ="Item3" Value ="3"></asp:ListItem>
-	</asp:DropDownList>
+{% highlight javascript %}
+
+		var HelloComponent = React.createClass ({
+				render : function() {
+						return (
+								<h1>Hello, React!</h1>
+						);
+				}
+		});
 
 {% endhighlight %}
 
