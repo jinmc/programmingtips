@@ -18,6 +18,65 @@ In Webforms, creating dropdownlists was so easy...
 
 {% endhighlight %}
 
+you just put this on your frontend page and call it from the backend page by 
+{% highlight csharp %}
+
+	var text = itemDdl.SelectedText;
+	var value = itemDdl.selectedValue;
+
+{% endhighlight %}
+
+And we could get the text or the value  whatever we like.
+
+On the other hand, in MVC, it's not that easy.
+I've tried, but but according to stack overflow, 
+the way to do it is .. to use javascript, and it does not look pretty.
+
+This is the stack overflow post explaining it how to do it...
+
+https://forums.asp.net/t/2042068.aspx?Get+dropdownlistFor+selected+text+in+Controller+MVC+4+razor+application
+
+it was so complicated I didn't even try.... 
+
+I think there should be a better way.. 
+just don't know how to do it.
+
+Webforms and MVC are very much different, even in simple things as creating a form and retrieving information from them.
+In Webforms, creating dropdownlists was so easy...
+
+{% highlight csharp %}
+	<asp:DropDownList id = "itemDdl" runat="server">
+		<asp:ListItem Text ="Item1" Value ="1"></asp:ListItem>
+     		<asp:ListItem Text ="Item2" Value ="2"></asp:ListItem>
+		<asp:ListItem Text ="Item3" Value ="3"></asp:ListItem>
+	</asp:DropDownList>
+
+{% endhighlight %}
+
+you just put this on your frontend page and call it from the backend page by 
+{% highlight csharp %}
+
+	var text = itemDdl.SelectedText;
+	var value = itemDdl.selectedValue;
+
+{% endhighlight %}
+
+And we could get the text or the value  whatever we like.
+
+On the other hand, in MVC, it's not that easy.
+I've tried, but but according to stack overflow, 
+the way to do it is .. to use javascript, and it does not look pretty.
+
+This is the stack overflow post explaining it how to do it...
+
+https://forums.asp.net/t/2042068.aspx?Get+dropdownlistFor+selected+text+in+Controller+MVC+4+razor+application
+
+it was so complicated I didn't even try.... 
+
+I think there should be a better way.. 
+just don't know how to do it.
+
+
 {% if page.comments %} 
 <div id="disqus_thread"></div>
 <script>
