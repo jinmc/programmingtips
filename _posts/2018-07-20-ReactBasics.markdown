@@ -1,4 +1,5 @@
 ---
+sidebar: mydoc_sidebar
 layout: post
 comments: true
 title:  "React Basics"
@@ -10,13 +11,13 @@ Reference : programming for the web (Edx)
 
 {% highlight javascript %}
 
-		var HelloComponent = React.createClass ({
-				render : function() {
-						return (
-								<h1>Hello, React!</h1>
-						);
-				}
-		});
+var HelloComponent = React.createClass ({
+ render : function() {
+   return (
+      <h1>Hello, React!</h1>
+	);
+  }
+});
 
 {% endhighlight %}
 
