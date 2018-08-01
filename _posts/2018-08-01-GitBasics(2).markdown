@@ -1,0 +1,55 @@
+---
+sidebar: mydoc_sidebar
+layout: post
+comments: true
+title:  "Git Basics(2)"
+date:   2018-08-01
+tags: [git]
+categories: git
+
+---
+
+Reference : Harvard's CS50 (Edx) and my experiences as well
+
+Just for reviewing purposes.. and for people who don't know about git much.
+Branching is a huge topic in Git, not just for version controlling, 
+but to cooperate with others.. 
+Unfortunately, I have not experienced a great lot about git branching,
+
+
+1. git reset (--hard) (commit)
+--> very useful command, especially when command with '--hard'
+which means that it will go back to the most latest commit you've done.
+You can also write the commit hash after so you can go back to that version.
+if you write 'git reset --hard origin/master' it means it will go to the most updated version
+of the remote repository.
+
+2. git branch 
+--> branching is a whole concept, which has merging, check outing, so let's go on one by one.
+If you just type git branch, it will show all the branches you have. 
+git branch is similar to git branch --list
+If you didn't create anything, it will just show master.
+
+3. git branch newBranch
+--> So the default branch is almost always master, and this will make a new branch called newBranch.
+Of course, you can name the branch whatever you like.
+There are actually issues that if you have uncommited changes, it 
+
+4. git checkout (newBranch)
+--> git checkout will move you to the new branch. 
+'git checkout -b newBranch' will make a new branch, and checkout to that branch.
+More precisely, it will just let your original branch as the last commited 
+and bring the current snapshot to the new branch.
+You can then commit the snapshot with git add and git commit.
+
+5. git stash
+--> This is the command I know but starts to get a little tricky to use.
+This stores the uncommited local modifications and reverts the working directory to match the HEAD commit.
+You can show stashed lists by 'git stash list', inspected with 'git stash show'
+and restore with 'git stash apply'.
+
+I am not a git newbie, but not very familiar with stashing and rebasing 
+and all sorts of advanced git and have a long way to improve.
+
+
+{% include disqus2.html %}
