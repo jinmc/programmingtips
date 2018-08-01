@@ -53,4 +53,9 @@ git fetch and git merge.
 It is usually considered as a better practice to do a git fetch and git merge 
 for almost every time.
 
+7. git log
+--> Shows every commits you've made.
+Also shows the commit hash that lets you to checkout
+or compare diffs between different comments.
+
 {% include disqus2.html %}
