@@ -2,7 +2,7 @@
 sidebar: mydoc_sidebar
 layout: post
 comments: true
-title:  ""
+title:  "Title Text when live and test database in winforms"
 date:   2018-08-02
 tags: [C#]
 categories: C# Winforms
