@@ -1,0 +1,14 @@
+---
+sidebar: mydoc_sidebar
+layout: post
+comments: true
+title: JQuery Basics
+date: 2018-08-03
+tags: [Javascript], [JQuery]
+categories: javascript jquery
+---
+
+Getting used to JQuery is much more important than I originally thought.
+
+
+{% include disqus2.html %}
