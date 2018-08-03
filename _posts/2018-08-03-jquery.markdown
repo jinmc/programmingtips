@@ -2,7 +2,7 @@
 sidebar: mydoc_sidebar
 layout: post
 comments: true
-title: JQuery Basics
+title: "JQuery Basics"
 date: 2018-08-03
 tags: [Javascript], [JQuery]
 categories: javascript jquery
