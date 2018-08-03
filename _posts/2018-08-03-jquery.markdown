@@ -9,7 +9,89 @@ categories: javascript jquery
 
 ---
 
+Reference : Edx PennX Programming for the Web  - Introduction to JQuery
+
 Getting used to JQuery is much more important than I originally thought.
 
+It might sometimes seem outdated because the whole javascript frameworks
+created nowadays as Angular, React, and all sort of applications flooding, 
+but it is intuitive, easy to use and learn, and cross functional (except for IE6, of which no one is using now).
+
+But as it's a library not a default within any browsers, we first have to include it as
+
+{% highlight javascript %}
+
+	<script src = "jQueryFile.js"></script>
+
+{% endhighlight %}
+
+We can use the '$' sign to select the DOM element along with the CSS syntax.
+
+some examples might show,
+
+$("*")   ---> selects all elements
+$(this)  ---> selects the current element
+$("div")  ---> selects all <div> elements
+$(".title")  ---> selects all elements with class="title"
+$("#name")  ---> selects the element with id = "name"
+
+These are some use cases for JQuery,
+the first is without JQuery and pure Javascript, and second is 
+the same functionality with JQuery.
+
+{% highlight javascript %}
+
+	<html>
+	<head><script src="jquery.js"></script></head>
+	<body>
+		<button id="clickMe">Click Me!</button>
+		<p>You've clicked the button <span id="numClicks">0 times</span></p>
+		<script>
+			var clicks = 0;
+			
+			function clickHandler() {
+				clicks ++;
+				var numClicksSpan = document.getElementById('numClicks');
+				if (clicks == 1) {
+					numClicksSpan.innerHTML = 'once';
+				} else {
+					numClicksSpan.innerHTML = clicks + ' times';
+				}
+			}
+			
+			var button = document.getElementById('clickMe');
+			button.addEventListner('click', clickHandler);
+		</script>
+	</body>
+	</html>
+{% endhighlight %}
+
+And then this can be changed using jquery into ... 
+
+{% highlight javascript %}
+
+	<html>
+	<head><script src="jquery.js"></script></head>
+	<body>
+		<button id="clickMe">Click Me!</button>
+		<p>You've clicked the button <span id="numClicks">0 times</span></p>
+		<script>
+			var clicks = 0;
+			
+			function clickHandler() {
+				clicks ++;
+				var numClicksSpan = $('#numClicks');
+				if (clicks == 1) {
+					numClicksSpan.html('once');
+				} else {
+					numClicksSpan.html(clicks + ' times');
+				}
+			}
+			
+			$('#clickMe').click(clickHandler);
+		</script>
+	</body>
+	</html>
+{% endhighlight %}
 
 {% include disqus2.html %}
