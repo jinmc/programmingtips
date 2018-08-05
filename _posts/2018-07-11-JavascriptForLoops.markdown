@@ -1,16 +1,10 @@
 ---
 layout: post
 comments: true
-title:  "IEnumerable vs IQueryable"
-date:   2018-05-10
+title:  "Javascript for loops"
+date:   2018-07-11
 categories: jekyll update
 ---
-
-There are two datatypes in C# .NET, which are IEnumerable, and IQueryable as well.
-Honestly, I do not know the difference between the two even now.
-The power of var pre-definition just makes me use it even though I do not know where it should go for sure.
-
-Anyways, today I'm not talking about .NET. 
 In JavaScript, I am looking into looping, and there are certain ways to loop.
 Of course there are basic things as for loop, while loop, do while loop, .. 
 but there are two new (to me..) loops, which are for in loop, and for out loop.

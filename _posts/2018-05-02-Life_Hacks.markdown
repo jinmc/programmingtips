@@ -22,3 +22,5 @@ I am 29, going on 30. Below is a list that I wish I had known at 23.
 8. Don’t try to stick to adolescence. You are an adult, better start behaving like one. Maturity is pretty sexy. People like people who can hold intelligent conversations.
 9. Get involved in country politics (even if it just means that you become aware about the candidates up for election from your area, and going to vote on the voting day). Politics and democracy is for everyone. If you do not represent you in the country politics, do not expect anyone else to represent you.
 10. And while you do all this, don’t forget to have some fun! Life is shorter than we think it is, and the best years quickly pass by. Enjoy the present.
+
+{% include disqus2.html %}

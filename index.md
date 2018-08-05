@@ -5,4 +5,5 @@
 layout: home
 sidebar: mydoc_sidebar
 
+title: Jinmo's ProgrammingTips
 ---

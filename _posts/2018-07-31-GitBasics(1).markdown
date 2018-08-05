@@ -1,0 +1,61 @@
+---
+sidebar: mydoc_sidebar
+layout: post
+comments: true
+title:  "Git Basics(1)"
+date:   2018-07-31
+tags: [git]
+categories: git
+
+---
+
+Reference : Harvard's CS50 (Edx) and my experiences as well
+
+Just for reviewing purposes.. and for people who don't know about git much.
+
+1. git clone <url> 
+--> copies the remot url (something like github) and makes a copy in the directory.
+
+2. git add .
+--> we can do a file name(s) instead of .
+      putting things on a staging area. basically staging area is the place we go just before commiting stuff
+
+3. git commit -m "some commit"
+--> commiting.. we can actually omit -m and "comments" but it is highly recommended to make comments for commits
+
+4. git status
+--> easy way to see which is commited or not commited, 
+added or not added, or what kind of files are not tracked, etc
+
+5. git push (origin master)
+--> often followed with origin master. 
+origin is the name of the remote and master would be the name of branch.
+Master is the default branch. 
+We can not type origin master by setting up the default upstream as master 
+and the command is 
+'git push --set-upstream origin master'
+and will let you to just type 'git push'
+from next time.
+You can also write 'git push -u origin master' which is same as the upper command.
+Finally, if you have several branches, and if you want to push everything to the remote
+and want to type git push only every time, this is the command
+'git push -u --all' which will make you push every branch to the remote 
+each time you type 'git push'.
+
+
+6. git pull 
+--> updates to the most latest version.
+This is convenient but tricky command to use
+because to do this has to be in sync with the git version or else it will 
+cause a merge error.
+Actually, this command is a combination for 
+git fetch and git merge.
+It is usually considered as a better practice to do a git fetch and git merge 
+for almost every time.
+
+7. git log
+--> Shows every commits you've made.
+Also shows the commit hash that lets you to checkout
+or compare diffs between different comments.
+
+{% include disqus2.html %}
