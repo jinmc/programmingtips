@@ -18,15 +18,74 @@ entries:
       # type: frontmatter
 
   - title: Programming Languages
-    output: web, pdf
+    output: web
     folderitems:
 
     - title: C#
-      url: /C#
+      url: /CSharp
       output: web
-      type: homepage
       
     - title: Java
       url: /Java
       output: web
-      type: homepage
+      
+    - title: Javascript
+      url: /Javascript
+      output: web
+      
+    - title: SQL
+      url: /Sql
+      output: web
+      
+    - title: Ruby
+      url: /Ruby
+      output: web
+
+    - title: Python
+      url: /Python
+      output: web
+      
+  - title: Frameworks
+    output: web
+    folderitems:
+    
+    - title: ASP.NET WebForms
+      url: /WebformsDotNet
+      output: web
+      
+    - title: ASP.NET MVC
+      url: /MVCDotNet
+      output: web
+
+    - title: ASP.NET Winforms
+      url: /WinformsDotNet
+      output: web
+      
+    - title: React JS
+      url: /ReactJS
+      output: web    
+      
+      
+  - title: CsSkills
+    output: web
+    folderitems:
+      
+    - title: Git
+      url: /Git
+      output: web
+
+    - title: Software Engineering
+      url: /softwareEngineering
+      output: web
+      
+  - title: NonCS
+    output: web
+    folderitems:
+
+    - title: About Life
+      url: /Life
+      output: web
+      
+    - title: About anything else
+      url: /else
+      output: web

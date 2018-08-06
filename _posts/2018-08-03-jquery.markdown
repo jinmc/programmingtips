@@ -17,6 +17,13 @@ It might sometimes seem outdated because the whole javascript frameworks
 created nowadays as Angular, React, and all sort of applications flooding, 
 but it is intuitive, easy to use and learn, and cross functional (except for IE6, of which no one is using now).
 
+In JQuery Tutorial in MVC asp.net for Udemy, which I bought, 
+Mosh Hamedani mentioned that the drawback of JQuery 
+is and always criticized that it results to a lot of untestable spaghetti codes, 
+but it lets you to lead a better understanding of how DOM works.
+We can use Angular and React and don't use JQuery, but you might not
+have a good understanding of how things are happening behind the scene.
+
 But as it's a library not a default within any browsers, we first have to include it as
 
 {% highlight javascript %}
