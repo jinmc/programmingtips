@@ -29,11 +29,11 @@ We can use the '$' sign to select the DOM element along with the CSS syntax.
 
 some examples might show,
 
-$("*")   ---> selects all elements
-$(this)  ---> selects the current element
-$("div")  ---> selects all <div> elements
-$(".title")  ---> selects all elements with class="title"
-$("#name")  ---> selects the element with id = "name"
+$("*")   ---> selects all elements<br>
+$(this)  ---> selects the current element<br>
+$("div")  ---> selects all <div> elements<br>
+$(".title")  ---> selects all elements with class="title"<br>
+$("#name")  ---> selects the element with id = "name"<br>
 
 These are some use cases for JQuery,
 the first is without JQuery and pure Javascript, and second is 
@@ -93,5 +93,39 @@ And then this can be changed using jquery into ...
 	</body>
 	</html>
 {% endhighlight %}
+
+As we can see, jquery not only transforms document.getElementById by selectors 
+but other functions as well.
+This would be another example
+
+{% highlight javascript %}
+
+<html>
+<head><script src="jquery.js"></script></head>
+<body>
+
+<input id="itemField"></input>
+<br />
+<ul>
+<span id="list"></span>
+</ul>
+
+<script>
+function keyPressHandler(e) {
+	if (e.keyCode == 13) {
+		$('#list').append('<li>' + $('#itemField').val() + '</li>');
+		$('#itemField').val('');
+	}
+}
+
+$('#itemField').keyup(keyPressHandler);
+
+</script>
+</body>
+</html>
+
+{% endhighlight %}
+
+
 
 {% include disqus2.html %}
