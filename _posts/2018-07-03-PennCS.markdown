@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Contemplation about UPenn Computer Science"
 date:   2018-07-03
-categories: jekyll update
+categories: etc
 ---
 
 I graduated from Penn and got a dual degree for materials science and computer science.

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Javascript let vs var"
 date:   2018-05-08
-categories: jekyll update
+categories: javascript
 ---
 
 Conversion from Java to C# was pretty easy. In fact, now I am usually using mostly C#, much more than Java,

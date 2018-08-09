@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Selecting Text from dropdownlist in MVC ASP.net"
 date:   2018-07-11
-categories: asp.netmvc
+categories: mvcdotnet
 ---
 
 Webforms and MVC are very much different, even in simple things as creating a form and retrieving information from them.

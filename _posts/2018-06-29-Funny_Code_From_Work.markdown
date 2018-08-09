@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Software Engineering Practices... Error"
 date:   2018-06-29
-categories: jekyll update
+categories: softwarePractices
 ---
 
 From work, there was this code that says..

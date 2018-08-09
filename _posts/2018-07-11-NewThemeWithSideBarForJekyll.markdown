@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Jekyll Doc Theme 6.0"
 date:   2018-07-11
-categories: jekyll theme
+categories: jekyll
 ---
 
 Basically I just wanted to get a sidebar option,

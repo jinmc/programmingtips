@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "set value in html.textBox in MVC ASP.NET"
 date:   2018-05-29
-categories: jekyll update
+categories: mvcdotnet
 ---
 
 Basic form setting.. 

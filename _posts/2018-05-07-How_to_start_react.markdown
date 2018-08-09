@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "How to start React from Node"
 date:   2018-05-07
-categories: jekyll update
+categories: react
 ---
 
 Nowadays I'm learning React from Edx.

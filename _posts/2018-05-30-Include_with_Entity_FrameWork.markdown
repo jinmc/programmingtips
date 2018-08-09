@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Include function with entity framework"
 date:   2018-05-30
-categories: jekyll update
+categories: entityframework
 ---
 
 Before I begin, I would like to refer to some links I have read for additional explanation,

@@ -5,7 +5,7 @@ comments: true
 title:  "Title Text when live and test database in winforms"
 date:   2018-08-02
 tags: [C#]
-categories: C# Winforms
+categories: csharp winforms
 
 ---
 

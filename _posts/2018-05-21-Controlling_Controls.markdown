@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Controlling Controls in WinForms"
 date:   2018-05-21
-categories: jekyll update
+categories: winforms
 ---
 
 Making desktop applications in Winforms is quite straightforward.

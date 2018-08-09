@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "SSD Harddrive Lock with ATA security "
 date:   2018-04-24
-categories: jekyll update
+categories: hardware
 ---
 
 Never knew about this, but we can lock in the level of hard drive!

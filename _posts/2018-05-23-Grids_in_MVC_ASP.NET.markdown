@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Grids in ASP.NET MVC"
 date:   2018-05-23
-categories: jekyll update
+categories: mvcdotnet
 ---
 
 In Web forms, there was gridview, which was super convenient to display data in an excel-like format.

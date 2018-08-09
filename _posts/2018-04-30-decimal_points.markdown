@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Floating point decimals and Double Precision Decimals"
 date:   2018-04-30
-categories: jekyll update
+categories: csBasics
 ---
 
 So there are 8 primitive data types in JAVA.. boolean, byte, char, short, int long, float, double.

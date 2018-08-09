@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Exporting to Excel from webforms gridview"
 date:   2018-04-25
-categories: jekyll update
+categories: webforms
 ---
 
 This is actually a typical example of a stackoverflow engineer.

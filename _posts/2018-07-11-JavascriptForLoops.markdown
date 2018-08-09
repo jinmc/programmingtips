@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Javascript for loops"
 date:   2018-07-11
-categories: jekyll update
+categories: javascript
 ---
 In JavaScript, I am looking into looping, and there are certain ways to loop.
 Of course there are basic things as for loop, while loop, do while loop, .. 

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "IEnumerable vs IQueryable"
 date:   2018-05-10
-categories: jekyll update
+categories: csharp
 ---
 
 There are two datatypes in C# .NET, which are IEnumerable, and IQueryable as well.

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "string and String in C#"
-categories: programming knowledges
+categories: csharp
 ---
 
 string is an alias of String in C#.

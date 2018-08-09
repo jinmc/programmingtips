@@ -4,7 +4,7 @@ layout: post
 comments: true
 title:  "sql query with cte"
 date:   2018-07-19
-categories: sqlquery
+categories: sql
 ---
 
 I posted this question on stack overflow, and got this amazing answer.. love you stack overflow..

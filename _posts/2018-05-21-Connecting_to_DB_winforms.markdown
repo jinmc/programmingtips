@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Connecting to the DB in Win forms"
 date:   2018-05-21
-categories: jekyll update
+categories: winforms
 ---
 
 We cannot use SQL SERVER mangement studio when we are writing  a win forms application.

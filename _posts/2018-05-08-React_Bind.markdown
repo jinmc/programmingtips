@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Bind function in Javascript/React"
 date:   2018-05-08
-categories: jekyll update
+categories: react
 ---
 
 As learning Javascript, I couldn't agree more why it's gaining such spotlights..

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "JQuery AutoComplete with ASP.NET Webforms 4.5 with SQLSERVER database"
 date:   2018-04-23
-categories: jekyll update
+categories: javascript
 ---
 
 Environment : Visual Studio 2017 Enterprise Edition, SQL SERVER (don't know version) database, 

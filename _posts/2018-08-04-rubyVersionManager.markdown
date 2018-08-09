@@ -5,7 +5,7 @@ comments: true
 title:  "Ruby Version Controls"
 date:   2018-08-04
 tags: [Ruby] 
-categories: Ruby 
+categories: ruby 
 
 ---
 

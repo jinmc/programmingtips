@@ -4,7 +4,7 @@ layout: post
 comments: true
 title:  "Interview preparation... (1) motivation"
 date:   2018-06-05
-categories: jekyll update
+categories: etc
 ---
 
 I think almost everyone has the urge to move his or her job.

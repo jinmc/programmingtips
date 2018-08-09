@@ -4,7 +4,7 @@ layout: post
 comments: true
 title:  "Interview preparation... (2) experience"
 date:   2018-06-05
-categories: jekyll update
+categories: etc
 ---
 
 People who talk to me for the first time are often amazed that I came to the US
