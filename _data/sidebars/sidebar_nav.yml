@@ -77,6 +77,20 @@ entries:
     - title: Software Engineering
       url: /softwareEngineering
       output: web
+
+      
+  - title: Algorithms
+    output: web
+    folderitems:
+
+    - title: sorting
+      url: "/sorting"
+      output: web
+      
+    - title: problem solving
+      url: /algorithms/problemsolving
+      output: web
+      
       
   - title: NonCS
     output: web

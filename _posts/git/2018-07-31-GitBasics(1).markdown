@@ -48,6 +48,9 @@ each time you type 'git push'.
 This is convenient but tricky command to use
 because to do this has to be in sync with the git version or else it will 
 cause a merge error.
+Similar to git push, often used with origin master.
+However, we should keep in mind that origin master means that it will pull the 
+master branch of the origin remote.
 Actually, this command is a combination for 
 git fetch and git merge.
 It is usually considered as a better practice to do a git fetch and git merge 
