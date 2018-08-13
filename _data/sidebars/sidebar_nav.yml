@@ -62,7 +62,7 @@ entries:
       output: web
       
     - title: React JS
-      url: /ReactJS
+      url: /react
       output: web    
       
       
