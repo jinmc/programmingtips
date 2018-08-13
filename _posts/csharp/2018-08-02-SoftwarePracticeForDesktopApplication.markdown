@@ -1,5 +1,5 @@
 ---
-sidebar: mydoc_sidebar
+
 layout: post
 comments: true
 title:  "Title Text when live and test database in winforms"

@@ -22,7 +22,7 @@ entries:
     folderitems:
 
     - title: C#
-      url: /CSharp
+      url: /csharp
       output: web
       
     - title: Java
@@ -50,7 +50,7 @@ entries:
     folderitems:
     
     - title: ASP.NET WebForms
-      url: /WebformsDotNet
+      url: /webforms
       output: web
       
     - title: ASP.NET MVC
@@ -84,7 +84,7 @@ entries:
     folderitems:
 
     - title: sorting
-      url: "/sorting"
+      url: programmingtips/sorting
       output: web
       
     - title: problem solving

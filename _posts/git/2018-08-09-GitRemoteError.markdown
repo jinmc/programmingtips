@@ -1,5 +1,5 @@
 ---
-sidebar: sidebar_nav
+
 layout: post
 comments: true
 title:  "Git Remote Error"
