@@ -26,23 +26,23 @@ entries:
       output: web
       
     - title: Java
-      url: /Java
+      url: /java
       output: web
       
     - title: Javascript
-      url: /Javascript
+      url: /javascript
       output: web
       
     - title: SQL
-      url: /Sql
+      url: /sql
       output: web
       
     - title: Ruby
-      url: /Ruby
+      url: /ruby
       output: web
 
     - title: Python
-      url: /Python
+      url: /python
       output: web
       
   - title: Frameworks
@@ -54,11 +54,11 @@ entries:
       output: web
       
     - title: ASP.NET MVC
-      url: /MVCDotNet
+      url: /aspdotnetmvc
       output: web
 
     - title: ASP.NET Winforms
-      url: /WinformsDotNet
+      url: /winforms
       output: web
       
     - title: React JS
@@ -75,7 +75,7 @@ entries:
       output: web
 
     - title: Software Engineering
-      url: /softwareEngineering
+      url: /softwareengineering
       output: web
 
       
