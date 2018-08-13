@@ -84,7 +84,7 @@ entries:
     folderitems:
 
     - title: sorting
-      url: programmingtips/sorting
+      url: sorting
       output: web
       
     - title: problem solving

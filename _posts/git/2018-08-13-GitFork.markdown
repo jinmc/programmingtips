@@ -9,6 +9,20 @@ categories: git
 
 ---
 
+Reference : Udacity Github and Collaboration course
 
+This is something new and what I haven't done before, probably because 
+I haven't worked much with someone else's work.
+<br><br>
+Forking is not a git command, it's a github concept, which lets you 
+to duplicate the remote repository to my remote repository. So <b>git fork</b>
+command would not work. You have to fork from the github.
+<br><br>
+So to get a sense why we need a fork, 
+if we clone a github that is not ours, and try to push an update,
+it won't work because we don't have authorization.
+<br><br>
+So to make changes to the project,
+we can fork it and make it our own changes in our own github repository!
 
 {% include disqus2.html %}
