@@ -71,7 +71,7 @@ entries:
     folderitems:
       
     - title: Git
-      url: /Git
+      url: /git
       output: web
 
     - title: Software Engineering
