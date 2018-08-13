@@ -1,4 +1,5 @@
 ---
+sidebar: mydoc_sidebar
 layout: post
 comments: true
 title:  "JQuery AutoComplete with ASP.NET Webforms 4.5 with SQLSERVER database"

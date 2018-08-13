@@ -1,4 +1,5 @@
 ---
+sidebar: sidebar_nav
 layout: post
 comments: true
 title:  "How to start React from Node"

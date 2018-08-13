@@ -1,4 +1,5 @@
 ---
+sidebar: mydoc_sidebar
 published: false
 title:  "Sample post"
 published: true

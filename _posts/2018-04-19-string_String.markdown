@@ -1,4 +1,5 @@
 ---
+sidebar: mydoc_sidebar
 layout: post
 comments: true
 title: "string and String in C#"

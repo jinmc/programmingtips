@@ -1,4 +1,5 @@
 ---
+sidebar: mydoc_sidebar
 layout: post
 comments: true
 title:  "Exporting to Excel from webforms gridview"

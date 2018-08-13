@@ -1,4 +1,5 @@
 ---
+sidebar: mydoc_sidebar
 layout: post
 comments: true
 title:  "Floating point decimals and Double Precision Decimals"
