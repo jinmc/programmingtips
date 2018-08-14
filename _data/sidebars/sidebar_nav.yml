@@ -91,6 +91,15 @@ entries:
       url: /algorithms/problemsolving
       output: web
       
+  - title: Programming as a hobby
+    output: web
+    folderitems:
+
+    - title: Jekyll
+      url: /jekyll
+      output: web
+      
+
       
   - title: NonCS
     output: web

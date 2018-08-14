@@ -22,6 +22,7 @@ Just for reviewing purposes.. and for people who don't know about git much.
 
 3. git commit -m "some commit"
 --> commiting.. we can actually omit -m and "comments" but it is highly recommended to make comments for commits
+We can also combine git add and git commit by doing "git commit -am  "message" "
 
 4. git status
 --> easy way to see which is commited or not commited, 

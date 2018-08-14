@@ -1,0 +1,51 @@
+---
+layout: post
+comments: true
+title:  "Jekyll Pagination"
+date:   2018-08-14
+categories: jekyll
+---
+
+As there are many posts, I am starting to feel the need of pagination.
+I found a cool post about jekyll pagination on this site,
+and now trying to do it.
+
+https://blog.webjeda.com/jekyll-pagination/
+
+~~~ruby
+
+{% for post in paginator.posts %}
+<li><a href="{{post.url | prepend: site.baseurl}}"><h3>{{post.title}}</h3></a></li>
+{% endfor %}
+
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="webjeda">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{ site.baseurl }}/index.html">{{ page  }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+~~~
+
+{% include disqus2.html %}
