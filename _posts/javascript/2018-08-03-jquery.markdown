@@ -46,7 +46,7 @@ These are some use cases for JQuery,
 the first is without JQuery and pure Javascript, and second is 
 the same functionality with JQuery.
 
-{% highlight javascript %}
+{% highlight html %}
 
 	<html>
 	<head><script src="jquery.js"></script></head>
@@ -73,9 +73,13 @@ the same functionality with JQuery.
 	</html>
 {% endhighlight %}
 
+By the way, this code will let you know how many times you have pressed the button.
+If you press it once, it will say once, more than one, it will print out the number(digit) and times after that.
+<br><br>
+
 And then this can be changed using jquery into ... 
 
-{% highlight javascript %}
+{% highlight html %}
 
 	<html>
 	<head><script src="jquery.js"></script></head>
@@ -133,6 +137,7 @@ $('#itemField').keyup(keyPressHandler);
 
 {% endhighlight %}
 
-
+Which will add the elements of the input 
+to the list whenever we press the enter key.
 
 {% include disqus2.html %}
