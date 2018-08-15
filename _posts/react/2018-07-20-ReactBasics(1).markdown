@@ -53,12 +53,12 @@ ReactDOM.render(
 Also, render is the function which is called to 
 
 
-There are two things to keep in mind, are properties and state.
+There are two things to keep in mind, are properties and state.<br>
 Properties => attributes and values that are set when the component is created, and it should not be modified after initialization.
-
+<br><br>
 State => attributes and values that represent the current state of the component, based on what it does/represents
 and it can be modified during the component's lifecycle
-
+<br><br>
 Example of using props : 
 
 {% highlight javascript %}

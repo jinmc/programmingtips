@@ -37,7 +37,10 @@ so we should build it with the production environment which will be
 <br><br>
 <b>JEKYLL_ENV=production jekyll build</b>
 <br><br>
-
+or
+<br><br>
+<b>JEKYLL_ENV=production bundle exec jekyll build</b>
+<br><br>
 
 I honestly think this is not a good way to implement things,
 as you can easily forget to build this and just push on the server anytime,
