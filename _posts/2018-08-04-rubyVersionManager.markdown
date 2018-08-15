@@ -1,5 +1,5 @@
 ---
-sidebar: mydoc_sidebar
+
 layout: post
 comments: true
 title:  "Ruby Version Controls"
@@ -39,6 +39,6 @@ for example, <br>
 
 4. rvm use *.*.*
 ---> this will make you use the versions you specify at rvm list.
-for example, rvm use 2.5.0 will enable you to use ruby version 2.5.0
+<br>For example, <b>rvm use 2.5.0</b> will enable you to use ruby version 2.5.0
 
 {% include disqus2.html %}
