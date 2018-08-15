@@ -66,6 +66,15 @@ and it works just fine.
 It is also quite important to point out that inside ReactDOM.render, 
 it's important to keep the elements inside the div, so that it becomes one element.
 If it becomes two, you should make a big div to cover them all.
-
-
+<br><br>
+Most important of all, is that you should use <b>this.state</b> only inside the constructor,
+and you should use <b>this.setState()</b> elsewhere,
+because the setState function will call the <b>render()</b> function and using <b>this.state</b> will not.
+<br><br>
+Also, there is another reason.. if there are two components which are the same class, 
+and if the state gets updated in one component it will automatically update the other.. 
+something like a static variable, I guess ... this is how I understand it, but I may be wrong.
+<br><br>
+<i>https://medium.com/@baphemot/understanding-reactjs-setstate-a4640451865b</i>
+ this is a post about setState and it's quite complicated. 
 {% include disqus2.html %}
