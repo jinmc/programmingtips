@@ -1,0 +1,20 @@
+---
+layout: default
+sidebar: sidebar_nav
+---
+
+<h1>Sql</h1>
+
+<ul>
+	{% for posts in site.categories.sql %}
+		<li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+			<span class="post-meta">{{ posts.date | date: date_format }}</span>
+			<h3>
+			<a class="post-link" href="{{ posts.url | relative_url }}">{{posts.title}}</a>
+			</h3>
+			<p>{{posts.meta}}</p>
+		</li>
+	{% endfor %}
+
+</ul>

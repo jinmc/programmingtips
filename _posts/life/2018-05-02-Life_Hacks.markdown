@@ -4,7 +4,7 @@ layout: post
 comments: true
 title:  "Life Hacks from a 30 year old to 23 year old"
 date:   2018-05-02
-categories: else
+categories: life
 ---
 
 This is actually not a coding related post but I just realized this is not only regarding to 23 years old 

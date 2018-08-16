@@ -25,9 +25,9 @@ entries:
       url: /csharp
       output: web
       
-    - title: Java
-      url: /java
-      output: web
+    # - title: Java
+      # url: /java
+      # output: web
       
     - title: Javascript
       url: /javascript
@@ -41,9 +41,9 @@ entries:
       url: /ruby
       output: web
 
-    - title: Python
-      url: /python
-      output: web
+    # - title: Python
+      # url: /python
+      # output: web
       
   - title: Frameworks
     output: web
@@ -54,7 +54,7 @@ entries:
       output: web
       
     - title: ASP.NET MVC
-      url: /aspdotnetmvc
+      url: /dotnetmvc
       output: web
 
     - title: ASP.NET Winforms
@@ -87,9 +87,9 @@ entries:
       url: sorting
       output: web
       
-    - title: problem solving
-      url: /algorithms/problemsolving
-      output: web
+    # - title: problem solving
+      # url: /algorithms/problemsolving
+      # output: web
       
   - title: Programming as a hobby
     output: web
@@ -106,7 +106,7 @@ entries:
     folderitems:
 
     - title: About Life
-      url: /Life
+      url: /life
       output: web
       
     - title: About anything else
