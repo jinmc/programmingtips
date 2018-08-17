@@ -1,5 +1,5 @@
 ---
-sidebar: mydoc_sidebar
+
 layout: post
 comments: true
 title:  "Life Hacks from a 30 year old to 23 year old"

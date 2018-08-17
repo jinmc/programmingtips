@@ -36,23 +36,28 @@ class FilteredList extends React.Component {
   
   }
   
-  incrementCount() { // callback function
-    this.setState( { 
-	  count: this.state.count + 1;
-	});
-  }
+
   
   render() { // invoked when setState is called
     return (
-	  <div> Count: { this.state.count}
-	  <button type="button"
-	      onClick={ this.incrementCount.bind(this); } >
-		  Increment
-	  </button>
-	  <div>
+      <div><input type="text" placeholder="Search" onChange={this.filterList.bind(this) }/>
+	            <ListItems items= { this.state.currentItems } />
+	  </div>
 	);
   }
 };
+
+class ListItems extends React.Component {
+  render() {
+    return(
+	  <ul> {  this.props.items.map(function(item) {
+	                  return <li key={item}> {item}</li>
+				   } )
+	            }
+	  </ul>
+	)	
+  }
+}
 
 ReactDOM.render(
   <div>
@@ -63,5 +68,10 @@ ReactDOM.render(
 </script>
 </body>
 {% endhighlight %}
+
+<i>https://medium.com/@leannezhang/curly-braces-versus-parenthesis-in-reactjs-4d3ffd33128f</i><br>
+<i>https://stackoverflow.com/questions/43904825/what-do-curly-braces-mean-in-jsx-react</i><br><br>
+
+Some helpful posts to grasp the jsx syntax more...
 
 {% include disqus2.html %}

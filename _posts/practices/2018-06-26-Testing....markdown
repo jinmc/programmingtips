@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Testing in ASP.NET"
 date:   2018-06-26
-categories: softwareEngineering
+categories: practices
 ---
 
 When I first started programming, testing seemed like a fairy tale to me.

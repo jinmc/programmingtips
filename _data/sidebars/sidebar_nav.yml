@@ -75,7 +75,7 @@ entries:
       output: web
 
     - title: Software Engineering
-      url: /softwareengineering
+      url: /practices
       output: web
 
       
