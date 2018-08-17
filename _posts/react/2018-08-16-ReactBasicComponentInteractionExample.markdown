@@ -51,9 +51,9 @@ class ListItems extends React.Component {
   render() {
     return(
 	  <ul> {  this.props.items.map(function(item) {
-	                  return <li key={item}> {item}</li>
-				   } )
-	            }
+	              return <li key={item}> {item}</li> 
+					  } ) 
+		 }
 	  </ul>
 	)	
   }
@@ -73,5 +73,11 @@ ReactDOM.render(
 <i>https://stackoverflow.com/questions/43904825/what-do-curly-braces-mean-in-jsx-react</i><br><br>
 
 Some helpful posts to grasp the jsx syntax more...
+
+I don't know how to format this.. 
+in Jekyll it looks so stupid, not indented correctly whatever I do..
+
+Anyway, this seems like a disaster who doesn't know javascript, because this has so many things going on.
+
 
 {% include disqus2.html %}
