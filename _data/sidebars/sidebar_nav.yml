@@ -86,6 +86,10 @@ entries:
     - title: sorting
       url: sorting
       output: web
+
+    - title: graphs
+      url: graphs
+      output: web
       
     # - title: problem solving
       # url: /algorithms/problemsolving
