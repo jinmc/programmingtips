@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Using React with Jekyll using WebPack"
-date:   2018-08-23
+date:   2018-08-22
 categories: jekyll react
 ---
 
