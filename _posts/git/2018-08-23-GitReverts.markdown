@@ -34,7 +34,7 @@ solutions too.
 If you didn't add or commit your changes,
 you can simply do..
 <br><br>
-<b>git checkout -- <file></b> <br> or..
+<b>git checkout -- filename </b> <br> or..
 <b>git checkout -- . </b> <br><br>
 if you have more than one file.
 <br><br>
