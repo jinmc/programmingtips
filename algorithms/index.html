@@ -4,7 +4,7 @@ sidebar: sidebar_nav
 ---
 
 {% for category in site.categories %}
-  {% if page.url|downcase contains category %}
+  {% if page.url %}
     <h1>{{ site.categories[category].displayName }}</h1>
     {% for posts in site.categories[category] %}
       <li>

@@ -75,12 +75,12 @@ And I looked at the code in includes/topnav.html, which looked like this at the 
                         <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
                         <ul id="results-container"></ul>
                     </div>
-                    <script src="{{ "{{site.baseurl}}/js/jekyll-search.js"}}" type="text/javascript"></script>
+                    <script src="{{ "(( site.baseurl ))/js/jekyll-search.js"}}" type="text/javascript"></script>
                     <script type="text/javascript">
                             SimpleJekyllSearch.init({
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
-                                dataSource: '{{ "{{site.baseurl}}/search.json" }}',
+                                dataSource: '{{ "(( site.baseurl ))/search.json" }}',
                                 searchResultTemplate: '<li><a href="{url}" title="{{page.title | escape }}">{title}</a></li>',
                     noResultsText: '{{site.data.strings.search_no_results_text}}',
                             limit: 10,

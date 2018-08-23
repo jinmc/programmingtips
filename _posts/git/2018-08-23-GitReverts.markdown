@@ -34,13 +34,13 @@ solutions too.
 If you didn't add or commit your changes,
 you can simply do..
 <br><br>
-<b>git checkout -- filename </b> <br> or..
+<b>git checkout -- filename </b> <br> or..<br>
 <b>git checkout -- . </b> <br><br>
 if you have more than one file.
 <br><br>
 There is also this git revert thing that can save you the history in log
 <br><br>
-<b>git revert <i>HASH123/i><b><br><br>
+<b>git revert <i>HASH123</i></b><br><br>
 and you will be allowed to write a message and the revert will be commited as a commit.
 
 You can also not commit it by using the "-n " option in git revert.
