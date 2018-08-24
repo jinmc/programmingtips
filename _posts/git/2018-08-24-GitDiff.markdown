@@ -1,0 +1,83 @@
+---
+
+layout: post
+comments: true
+title:  "Git Diffs and getting used to it."
+date:   2018-08-24
+tags: [git]
+categories: git
+
+---
+
+Reference : https://git-scm.com/docs/git-diff,  
+
+I used references and also experimented myself 
+using a txt file and commiting with following statements
+
+{% highlight code %}
+
+first commit
+
+second commit
+
+third commit on staging
+
+fourth commit not added on staging
+
+{% endhighlight %}
+<br><br>
+and it's quite self-explanatory so I won't go into them
+<br><br>
+1. git diff --> compares the working directory and the staging area and shows you 
+how the working directory is different from the staging area.
+<br><br>
+2. git diff --staged --> compares the staging area and the latest commit. <br> 
+You can also use --cached instead of staged, although staged actually makes more sense.
+
+<br><br>
+3. git diff HEAD --> probably the command most useful if not using the staging area thoroughly.<br>
+It will compare the current working tree with the HEAD commit. 
+And also keep in mind get reset --hard if you need to get rid of everything after the latest commit, HEAD,
+but be careful because this is non-reversible commit.
+<br><br>
+
+3. git diif commit1 commit2 --> compare commit2 with commit1. You can see the commit hash 
+by git log.
+<br><br>
+4. giit diff commit1 --> compare current working branch with the commit hash also can be seen with git log.
+<br><br><br>
+
+These are the commands I should have been using from a long time ago.
+But now I know them, and now I'll get used to them.
+
+One more thing about staging areas, 
+When I learnt about GIT for the first time,
+I did not know and questioned about staging areas,
+because you're going to commit anyways, so why bother 
+putting it inside a staging area?
+<br><br>
+But I can now tell why staging areas are useful with several reasons.
+<br><br>
+First of all, what if you want to control only specific files?
+We can do git add . and git commit -m "commit # something" and 
+then automate it by doing git commit -am "commit something else..",
+but by automating it would update every file which has been tracking.
+<br>
+So if I only wanted to update only one file, I should do
+git add specificFile.file , and then git commit -m "commited change to specificFile".
+<br><br>
+Another reason that comes to mind is that commit leaves history,
+and it makes sense to commit when one is finished with one fix or made functionality,
+not during fixing things... But I do this a lot, but should not in the case of coopration and goo software practices.
+<br><br>
+And the last reason I can think of is with the diff statements above.
+When the software is large, in the case of many software companies,
+it would be easier to just put in the files you would like to compare to the 
+HEAD and type in git diff --staged, or else you should compare a huge code bases.
+
+
+
+
+
+
+{% include disqus2.html %}
