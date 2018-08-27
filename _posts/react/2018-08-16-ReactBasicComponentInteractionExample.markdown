@@ -79,5 +79,4 @@ in Jekyll it looks so stupid, not indented correctly whatever I do..
 
 Anyway, this seems like a disaster who doesn't know javascript, because this has so many things going on.
 
-
 {% include disqus2.html %}
