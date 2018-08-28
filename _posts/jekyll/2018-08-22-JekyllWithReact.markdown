@@ -35,8 +35,10 @@ In the tutorial she bundled with webpack 2 but
 I was using webpack 4, and it was having problems with bable-loader.
 
 So I think that I should learn more about this webpack and then try this again.
-{% include react_component1.html %}
+<br><br><br>
 
+ {% include react_component1.html %} 
+<br><br><br>
 So I did it.. I finally made it!
 The above comment is comming from Jekyll.. 
 

@@ -22,7 +22,20 @@ This could be a good example :
 
 {% highlight javascript %}
 	
+	Class Something extends React.Component {
+	
+		render() {
+			return (
+				<button onClick={this.handleClick.bind(this)}
+			)
+		}
+	}
 
 {% endhighlight %}
+
+something like this.
+But I've actually seen functions to work without the bind.
+something like onclick = clickMe;
+and then we could define clickMe function.
 
 {% include disqus2.html %}
