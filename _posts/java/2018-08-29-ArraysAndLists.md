@@ -54,4 +54,7 @@ Also, we can switch arrayList to an array like
 Note that the initial arraylist was holding the integer object
 so the transformed array also holds the Integer object.
 
-{% include links.html %}
+{% include disqus2.html %}
+
+
+
