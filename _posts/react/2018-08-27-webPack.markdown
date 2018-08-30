@@ -1,0 +1,21 @@
+---
+
+layout: post
+comments: true
+title:  "Webpack Basics and configuration"
+date:   2018-08-27
+tags: ["npm"]
+categories: react 
+
+---
+
+Reference : webpack official site ( https://webpack.js.org/guides/getting-started/ )
+
+Configuring with webpack was not that hard,
+but it was worth it, and I learned a lot of npm also.
+
+editing...
+
+
+
+{% include disqus2.html %}
