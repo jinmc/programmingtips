@@ -26,10 +26,27 @@ and also npm to set up react envirnoment, and we're ready to go.
 I would be happy to do this, 
 and will add a component in this or wherever post whenever I'm ready.
 
-So in short...
+Edit : on 9/27 
 
-I'm gonna become one of the cool kids
+I spent a whole day to implement this but failed,
+and presume that it was because the config problem.
 
-![](https://media.giphy.com/media/l6Td5sKDNmDGU/giphy.gif)
+In the tutorial she bundled with webpack 2 but 
+I was using webpack 4, and it was having problems with bable-loader.
+
+So I think that I should learn more about this webpack and then try this again.
+<br><br><br>
+
+ {% include react_component1.html %} 
+<br><br><br>
+So I did it.. I finally made it!
+The above comment is comming from Jekyll.. 
+
+But I have to compile this.
+In my case now, I have to type 
+**webpack** in console and do a **jekyll build**
+and then serve it.
 
 {% include disqus2.html %}
+
+{% include react_component1.html %}
