@@ -25,6 +25,6 @@ It let's you to use free private repositories unlimited.
  3. git remote set-url origin (https://bitbucket.com/username/repository.git)
  --> Changing the git remote to another.. Enables me to push to multiple remotes, such as bitbucket and github
 
-
+4. git remote add origin someURL --->  another useful command when you are not linked to the remote. But you might want to do git init and git add and commit  
 
 {% include disqus2.html %}

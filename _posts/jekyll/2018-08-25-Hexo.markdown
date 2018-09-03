@@ -34,8 +34,16 @@ I didn't have to deal with ruby versions.
 <br><br>
 So this is how I set up Hexo : https://github.com/hexojs/hexo
 <br><br>
-and
+and here are some hexo commands ..  <br><br>
 
+	$ npm install hexo-cli -g    		// to install hexo
+
+	$ hexo init blog     
+	$ cd blog
+
+	$ hexo new "Hello Hexo"          //  creating new post
+
+	$ hexo generate        // to create static files
 
 
 
