@@ -1,0 +1,46 @@
+---
+layout: post
+comments: true
+title:  "Starting a new blog with Hexo"
+date:   2018-08-25
+categories: jekyll react
+---
+
+This should actually be another category, 
+but I am not sure in which direction I should bring this hexo blog on,
+so I'll just write this here, like an exception.
+<br><br>
+Although I am really enjoying my experience with Jekyll,
+I am also feeling a lot of it's limitations,
+especially with implementing react into Jekyll,
+as I found out and wrote it down in my previous post,
+but it's hard to actually do it, because of webpack integration problem.
+<br><br>
+So even though I think this blog is great,
+I would like to start another blog that can have 
+react features more easily, and then I found Hexo.
+<br><br>
+Turns out that Hexo is actually more popular than Jekyll.. (I didn't know that!)
+and also based on Node.js, which is the framework I am largely interested in 
+right now.
+<br><br>
+So I decided to make another site,
+actually make my base www.jinmc.github.io site with Hexo.
+I am not sure what to make with that, but we'll see about it.
+<br><br>
+By the way, Hexo site was actually simpler and easier
+than the Jekyll site, I think that was basically because 
+I didn't have to deal with ruby versions.
+<br><br>
+So this is how I set up Hexo : https://github.com/hexojs/hexo
+<br><br>
+and
+
+
+
+
+
+
+
+
+{% include disqus2.html %}
