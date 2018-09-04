@@ -67,7 +67,10 @@ entries:
     - title: React JS
       url: /react
       output: web    
-      
+
+    - title: Node JS
+      url: /node
+      output: web   
       
   - title: CsSkills
     output: web
@@ -86,6 +89,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Data Structure
+      url: datastructure
+      output: web    
+    
     - title: sorting
       url: sorting
       output: web
@@ -97,6 +104,8 @@ entries:
     # - title: problem solving
       # url: /algorithms/problemsolving
       # output: web
+      
+
       
   - title: Programming as a hobby
     output: web

@@ -1,0 +1,57 @@
+---
+layout: post
+comments: true
+title:  "Node 101 with Express"
+date:   2018-09-04
+categories: node
+---
+
+To know if node is installed : 
+
+		node -v
+
+Update modules using : 
+
+		npm install npm -g
+
+Setting up a new project :
+
+		npm init
+		
+This will make package.json, and make sure that index.js as the start point!
+
+To make Node as a serverside framework, 
+we have to use a web framework called Express.
+
+To install Exrpess, simply type
+
+		npm install express --save
+
+It will show in package.json as a dependency.
+
+It also helps to modularize the code and handle requests and responses.
+
+An example of index.js will be 
+
+		var express = require('express');
+		var app = express();
+		
+		app.use('/', (req, res) => {
+				res.send('hello node');
+		});
+		
+		app.listen(3000, () => {
+				console.log('Listening on port 3000');
+		});
+
+By the way, require means that we are using the 'express'
+package.
+
+Lastly, we just type 
+
+		node index.js
+		
+and we can see hello node in localhost::3000
+
+
+{% include disqus2.html %}
