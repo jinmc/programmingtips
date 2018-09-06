@@ -7,7 +7,7 @@ title: Practices
 <h1>Software Engineering - Good Practices</h1>
 
 <ul>
-	{% for posts in site.categories.softwareengineering %}
+	{% for posts in site.categories.practices %}
 		<li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 			<span class="post-meta">{{ posts.date | date: date_format }}</span>

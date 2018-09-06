@@ -46,7 +46,11 @@ and here are some hexo commands ..  <br><br>
 	$ hexo generate        // to create static files
 
 
-
+A very important thing to note is that when pushing to github pages,
+we should push what is in the public directory, 
+because that is the static files created not the whole blog folder!
+Didn't know that so the github pages was not rendering it and fixed 
+it watching a youtube video and figured it out.
 
 
 
