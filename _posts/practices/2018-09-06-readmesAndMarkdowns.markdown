@@ -21,17 +21,17 @@ on github repositories.
 There are some formats that we may use for readmes, such as 
 how to install, examples, licenses, shields... 
 
-Basic syntacs are, for hash signs, the number of it will decide the size of it like
+Basic syntacs are, for hash signs, the number of it will decide the size of it 
+by putting `#` and space before any text.
 
-#h1
 
-##h2
+# h1
 
-###h3
+## h2
 
-I guess it does'nt work here.
+### h3
 
-But what works is that if I indent 4 lines, it automatically 
+If I indent 4 lines, it automatically 
 embed like code-style.
 
     this is not code.
@@ -49,5 +49,11 @@ seems like it also works here,
 and there'se also inline code with single backticks... 
 
 `code`
+
+We can learn more from link : https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/
+
+`Dillinger` is also a good tool if you want to see what the markdown will actually look. https://dillinger.io/ 
+
+
 
 {% include disqus2.html %}
