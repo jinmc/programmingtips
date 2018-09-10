@@ -44,6 +44,10 @@ entries:
     - title: Java
       url: /java
       output: web
+      
+    - title: C++
+      url: /C++
+      output: web
     # - title: Python
       # url: /python
       # output: web
