@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "C++ Basics - io, compile, string, vector"
+title:  "C++ Basics - io, compile, string"
 date:   2018-09-10
-categories: C++
+categories: CPP
 ---
 
 - you should use cin and cout
@@ -59,17 +59,5 @@ we can also use `str1.size()` and `str2.empty()` to check their size and whether
 
 `str1.compare(str);` will return 0 because the're the same.
 If str1 is bigger (if starts with b or else) it will return 1, else it will return -1;
-
-- vector
-		
-To use vector, we have to do `#include <vector>` because it's a library from std.
-There are several use cases of vectors.. for example,
-
-
-
-
-
-
-
 
 {% include disqus2.html %}

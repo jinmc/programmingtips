@@ -46,7 +46,7 @@ entries:
       output: web
       
     - title: C++
-      url: /C++
+      url: /CPP
       output: web
     # - title: Python
       # url: /python
