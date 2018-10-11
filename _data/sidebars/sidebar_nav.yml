@@ -24,6 +24,10 @@ entries:
     - title: C#
       url: /csharp
       output: web
+
+    - title: PHP
+      url: /php
+      output: web
       
     # - title: Java
       # url: /java

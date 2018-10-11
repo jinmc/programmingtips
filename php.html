@@ -1,0 +1,21 @@
+---
+layout: default
+sidebar: sidebar_nav
+title: PHP
+---
+
+<h1>PHP</h1>
+
+<ul>
+	{% for posts in site.categories.php %}
+		<li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+			<span class="post-meta">{{ posts.date | date: date_format }}</span>
+			<h3>
+			<a class="post-link" href="{{ posts.url | relative_url }}">{{posts.title}}</a>
+			</h3>
+			<p>{{posts.meta}}</p>
+		</li>
+	{% endfor %}
+
+</ul>
