@@ -1,0 +1,91 @@
+---
+
+layout: post
+comments: true
+title:  "Redux with react"
+date:   2018-10-15
+categories: react
+
+---
+
+React is great, but it has limits
+where only properties can be inherited,
+and states cannot be inheritted.
+
+Redux lets you to set states 
+modularized by Reducers,
+which is something like 
+setting databases in each states.....
+(Please correct this if this analogy doesn't make sense..) 
+
+
+
+In this youtube video, https://www.youtube.com/watch?v=0ix_QlPkYhl
+they say there are 4 steps in redux
+
+1. Create a Store
+ requires 2 pieces.. (reducer, state)
+
+2. Create a Reducer
+ Reducer is an agent... does whatever its told
+ It requires a state, and also action
+
+3. Subscribe
+ Getting connected to the base.. 
+ In programming, get the current state
+ 
+4. Dispatch
+ Action is sent to the agent.. (Reducer)
+
+example source Code : 
+
+
+```
+
+import React, { Component } from 'react';
+import { createStore } from 'redux';
+
+class ReduxDemo extends Component {
+  render() {
+
+    // Step 1 Store: reducer n state
+    const store = createStore(reducer, "Peace"); // "Peace is the state here. It is usually '{}'
+
+    // Step 2 Reducer : state n action
+
+    const reducer = function(state, action) {
+      if (action.type === "ATTACK") { // it should always be action.type!
+        return action.payload
+      }
+      if (action.type === "GREENATTACK") {
+        return action.payload
+      }
+      return state;         
+    }
+
+    // Step 3: Subscribe
+    store.subscribe(() => {
+      console.log("Store is now", store.getState());
+    })
+
+    // Step 4 : Dispatch action
+    store.dispatch({type: "ATTACK", payload: "Iron Man"}); 
+// this is same as action.type! and then we will get the payload!
+    store.dispatch({type: "GREENATTACK", payload: "HULK"});
+// 
+  }
+
+
+}
+
+``` 
+
+The things are easily confused because...<br>
+First, the reducer is to go to a seperate file<br>
+Second, dispatch is to go to seperate file or folder
+<br><br>
+and the reducer is by convention,
+should go to the top.
+
+
+{% include disqus2.html %}
