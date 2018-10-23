@@ -1,0 +1,38 @@
+---
+sidebar: mydoc_sidebar
+layout: post
+comments: true
+title:  "sql query with case"
+date:   2018-10-23
+categories: sql
+---
+
+SQL queries are the most important syntax of the backend language.
+
+Even though they are so important, the syntaxes of sql are quite different
+from just regular programming languages like java and python.
+
+Even the basic queries like if statements are different 
+and hard to implement.
+
+https://www.w3resource.com/mysql/control-flow-functions/case-operator.php
+
+the Syntax is 
+
+```
+CASE value WHEN [compare_value] THEN result
+[WHEN [compare_value] THEN result ...]
+[ELSE result]
+END
+```
+
+```
+CASE WHEN [condition] THEN result
+[WHEN [condition]
+THEN result ...]
+[ELSE result]
+END
+```
+
+
+{% include disqus2.html %}
