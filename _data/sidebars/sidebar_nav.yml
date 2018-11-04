@@ -79,6 +79,10 @@ entries:
     - title: Node JS
       url: /node
       output: web   
+
+    - title: Laravel
+      url: /laravel
+      output: web
       
   - title: CsSkills
     output: web
