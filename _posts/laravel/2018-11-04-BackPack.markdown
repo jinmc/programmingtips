@@ -1,0 +1,38 @@
+---
+layout: post
+comments: true
+title:  "BackPack Library for Laravel"
+date:   2018-11-04
+categories: laravel
+---
+
+Official Website : https://backpackforlaravel.com/
+
+BackPack is a library for Laravel.
+For people like me that have difficulty creating forms,
+this is a great library.
+
+Not only making form is this useful,
+but it has functionalities that are truly needed,
+such as login and make permissions and roles to
+characters.
+
+To install Backpack, simply run
+`$composer require backpack/crud`
+
+and the composer will automatically run install backpack for you.
+
+There are mainly two packages in Backpack,
+
+First one is Backpack/base, which lets you to log in and register ids,
+and the other is Backpack/CRUD, which lets you to make CRUD applications
+and also make roles and permissions to characters.
+
+If we install Backpack/CRUD,
+Backpack/BASE will be installed automatically.
+
+`$composer require backpack/crud` will do the trick. 
+
+
+
+{% include disqus2.html %}
