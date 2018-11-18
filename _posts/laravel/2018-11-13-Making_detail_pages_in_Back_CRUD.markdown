@@ -35,11 +35,11 @@ if you like.
 
 You can add the href link in the model (which is kind of weird.. in my opinion)
 set as a function, and return html link button
-
+    {% raw %}
     public function doSomething(){
         <a href="{{ Request::url().'/'.$entry->getKey().'/child' }}/post" class="btn btn-xs btn-default"><i class="fa fa-eye"></i> See Posts</a>
     }
-
+    {% endraw %}
 
 So, the information is from $entry->getKey().
 $this->id also works, too.
