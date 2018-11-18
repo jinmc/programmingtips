@@ -54,6 +54,11 @@ We can learn more from link : https://help.github.com/articles/getting-started-w
 
 `Dillinger` is also a good tool if you want to see what the markdown will actually look. https://dillinger.io/ 
 
+Also, whenever you want to put in double curly braces, jekyll will complain.
+In that case, you could put it inside raw curly braces in between ampersands.
 
+{% raw %}
+    {{ $variable }}
+{% endraw %}
 
 {% include disqus2.html %}
