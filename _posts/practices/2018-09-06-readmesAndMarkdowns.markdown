@@ -52,6 +52,12 @@ and there'se also inline code with single backticks...
 
 We can learn more from link : https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/
 
+{% raw %}
+    [this](link)
+{% endraw %}
+
+would be an easy example of making a link.
+
 `Dillinger` is also a good tool if you want to see what the markdown will actually look. https://dillinger.io/ 
 
 Also, whenever you want to put in double curly braces, jekyll will complain.
