@@ -14,6 +14,7 @@ which is equivalent as well, to show a variable.<br><br>
 To send data, first, you can send the data
 directly from the `web.php`, with such intuitively.
 <br><br>
+
     Route::get('/', function() {
         return view('welcome', [
             'var' => 'something important'
