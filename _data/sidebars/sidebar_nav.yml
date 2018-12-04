@@ -54,8 +54,8 @@ entries:
       output: web
 
     - title: Python
-       url: /python
-       output: web
+      url: /python
+      output: web
       
   - title: Frameworks
     output: web
