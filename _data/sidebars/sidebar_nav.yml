@@ -56,6 +56,14 @@ entries:
     - title: Python
       url: /python
       output: web
+
+    - title: Html
+      url: /html
+      output: web
+
+    - title: CSS
+      url: /css
+      output: web
       
   - title: Frameworks
     output: web
