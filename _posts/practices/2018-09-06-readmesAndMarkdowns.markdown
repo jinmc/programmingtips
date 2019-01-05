@@ -38,7 +38,10 @@ embed like code-style.
 
 even it's not code.
 
-Also, you can make it itallic or bold by doing stars or underscores.. by github flavors,
+Or we can put three backticks at start and end of the code.
+
+
+Also, you can make it itallic or bold by putting the code between two stars or (one at the side each) underscores.. by github flavors,
 
 **BOLD!**
 
@@ -61,10 +64,15 @@ would be an easy example of making a link.
 `Dillinger` is also a good tool if you want to see what the markdown will actually look. https://dillinger.io/ 
 
 Also, whenever you want to put in double curly braces, jekyll will complain.
-In that case, you could put it inside raw curly braces in between ampersands.
+In that case, you could put it inside raw curly braces in between percent signs.
 
 {% raw %}
     {{ $variable }}
+{% endraw %}
+
+{% raw %}
+   {% raw %}
+   like this and put endraw instead of raw at the end
 {% endraw %}
 
 {% include disqus2.html %}

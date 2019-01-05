@@ -1,0 +1,22 @@
+---
+
+layout: post
+comments: true
+title:  "Closures in Javascript - Lecture from Javascript the hard parts"
+date:   2019-01-04
+tags: [Javascript] 
+categories: javascript 
+
+---
+
+This is a summary of what I learned at a meetup in NYC Codesmith.
+It was really helpful, and I had almost no idea what a closure was, 
+but now have a pretty good understanding about it.
+
+It might be quite long, but I'll have to start at some point...
+
+To understand this, we have to understand three main concepts in Javascript,
+which is, 
+
+
+{% include disqus2.html %}
