@@ -22,14 +22,15 @@ when string is null or the string is empty..
 however, this will never go through, and if you don't know why.. 
 try to think about it a for a bit.
 
-The reason why is that even if the string is null, it will go for str.isEmpty()
-function because the two functions are connected with || (or)  operator.
+The reason why is because even if string is empty, it won't go for str.isEmpty()
+function because the two functions are connected with || (or)  operator 
+and empty string is not null so it will just get true from the former condition.
 
 A quick and easy fix for this would be replacing the or operator 
 with && (and) logical operator. 
 
-Then, if the str!= null is false, which means string is null,
-it won't go to str.IsEmpty() and just automatically get out of the loop.
+Then, if the str!= null is true, which means string is null,
+it will have to go through !str.isEmpty() to go inside the if clause.
 
 The caveat of this is that,
 and this is kind of funny, 
