@@ -59,6 +59,9 @@ arr.forEach(function(element, i) {
 This is a good post for this topic
 https://medium.com/@abustamam/for-loops-vs-foreach-in-javascript-7a977278a39e
 
-
+Some other things to note about foreach loops is that it is about 95% slower than 
+for loop, so just use for loops.. and that it is calling a callback function 
+for every elements in javascript arrays so it is not valid for cases when you want to 
+return outside the loop!!
 
 {% include disqus2.html %}
