@@ -105,6 +105,13 @@ entries:
       url: /practices
       output: web
 
+    - title: Regular Expressions
+      url: /regExp
+      output: web
+
+    - title: Bit Manipulation
+      url: /bitManipulation
+      output: web
       
   - title: Algorithms
     output: web
@@ -135,7 +142,10 @@ entries:
     - title: Jekyll
       url: /jekyll
       output: web
-      
+
+    - title: Drupal
+      url: /drupal
+      output: web      
 
       
   - title: NonCS
