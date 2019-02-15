@@ -51,9 +51,9 @@ function transform() {
 }
 
 // Log the global and local variable
-console.log(species);
-transform();
-console.log(species);
+console.log(species); // outputs human
+transform();  // outputs werewolf
+console.log(species); // outputs human
 ```
 
 This could seem really mezmerizing at first, without knowing how the javascript engine
