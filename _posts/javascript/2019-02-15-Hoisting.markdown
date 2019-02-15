@@ -1,0 +1,63 @@
+---
+
+layout: post
+comments: true
+title:  "Hoisting in Javascript"
+date:   2019-02-15
+tags: [Javascript] 
+categories: javascript 
+
+---
+
+Hoisting is such an important concept in Javascript which does not exist
+in other languages in Java or C that it can be confusing at some time.
+
+First of all, let and const are not hoisted.
+They are the new variales from ES6, and act something like the old (other language's)
+variables, so hoisting only concerns vars and function definition (statements),
+not function expressions.
+
+Let's check out the following code ..
+
+```javascript
+var a = 'Hello World!';
+
+function b() {
+    console.log('Called b!');
+}
+
+b();  // outputs 'Called b!'
+console.log(a); // outputs 'Hello World!'
+
+```
+
+This is pretty straightforward.
+But what if we call b and a beforehands?
+
+```javascript
+b();  // outputs 'Called b!'
+console.log(a); // outputs 'undefined'
+
+var a = 'Hello World!';
+function b() {
+    console.log('Called b!');
+}
+```
+
+This is a little bit weird. 
+As javascript should execute line by line, it would be normal 
+to give an error for both calling b function and printing out a.
+
+What happens here is the hoisting of variables and functions,
+which means to be saving up memory space for function declaration 
+and variable declarations and then set up undefined for variables 
+and copy the functions as-is, so that function b shown above was able to 
+execute without error.
+
+However, it is bad practice to rely on hoisting,
+because it could lead to many problematic situations,
+so just declare it beforehands and then using would be safe.
+
+
+
+{% include disqus2.html %}
