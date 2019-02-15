@@ -40,7 +40,7 @@ This is also a really good article about variables in javascript.
 <br>
 https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript
 
-```
+```javascript
 // Initialize a global variable
 var species = "human";
 
