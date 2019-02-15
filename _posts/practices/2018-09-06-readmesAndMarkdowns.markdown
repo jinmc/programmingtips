@@ -39,8 +39,14 @@ embed like code-style.
 even it's not code.
 
 Or we can put three backticks at start and end of the code.
-
-
+After putting the language name after the backticks, 
+we can highlight the language we want to.
+<br>
+Like 
+{% raw %}
+```javascript
+{% endraw %}
+<br>
 Also, you can make it itallic or bold by putting the code between two stars or (one at the side each) underscores.. by github flavors,
 
 **BOLD!**
