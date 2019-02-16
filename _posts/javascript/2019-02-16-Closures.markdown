@@ -1,0 +1,78 @@
+---
+
+layout: post
+comments: true
+title:  "Closures in Javascript"
+date:   2019-02-15
+tags: [Javascript] 
+categories: javascript 
+---
+
+Closures are the notorious topic in JS, but they are of significant importance,
+and without them you can't really understand fully of javascript,
+because many of the JS frameworks and JQuery also, work with it.
+
+It not only needs the basic understanding of programming, but also 
+requires the knowledge of execution context and execution stack, first class functions, 
+function expression and function statements, as well as hoisting.
+
+Let's take a look at following code
+
+```javascript
+
+function greet(something) {
+
+    return function(name) {
+        console.log(something + ' ' + name);
+    }
+
+}
+
+greet('hi')('Bob');  // outputs 'hi Bob'
+
+```
+
+This is weird syntax, but it kinda makes sense as we understand 
+first class functions and functions can be treated as variables and be called 
+and returned by other functions as well.
+`greet('hi')' will return the anonymous function returned in the greet function
+and thus invoking it with the parameter 'Bob' will invoke the console.log
+inside the anonymous function and thus output 'hello Bob'.
+
+But let's think of this with execution context and execution stacks.
+So as we call greet('hi'), the greet execution context would be called,
+and then the anonymous execution context would be over the greet execution
+context..?
+
+Actually No, that is not the case.
+After returning the anonymous function, the greet execution context
+would be removed from the execution stack.
+
+Ok that makes sense.. but how is the anonymous function getting the 'hi'???
+
+This is what is called closure, and how it is doing is that even though the greet execution stack is removed,
+the memory space which have kepth 'hi' would stay until the anonymous function uses it and fetch the information there.
+
+This seems strange, but this is how JS works.
+This is more obvious if we see it in the code below.
+
+```javascript
+
+function greet(something) {
+    return function(name) {
+        console.log(something + ' ' + name);
+    }
+}
+
+var sayHi = greet('Hi');
+sayHi('Bob');
+```
+
+Here it is more clear that the greet execution context would be removed after 
+the var sayHi line.
+
+Closures are an important part of JS and it is ok to rely on it,
+and many features are actually using it.
+
+
+{% include disqus2.html %}
