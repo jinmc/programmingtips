@@ -1,0 +1,104 @@
+---
+
+layout: post
+comments: true
+title:  "Immediately Invoked Function Expressions"
+date:   2019-02-16
+tags: [Javascript] 
+categories: javascript 
+---
+
+First let's review about function statements and function expressions below.
+
+```javascript
+// function statement
+function greet(name) {
+    console.log('Hello ' + name); 
+}
+greet('ken'); // outputs 'Hello ken'
+
+// function expression
+var greetFunc = function(name) {
+    console.log('Hello ' + name);
+};
+greetFunc('ken');
+
+```
+
+As the previous post, function statement is declaring a function, 
+with a name, and function expression is just labeling a memory address,
+for an anonymous function.
+
+In the case of function expression, we can just invoke the function right away
+by adding the parenthesis after making the function.
+We can also put variables inside. This is called **Immediately Invoked Function Expression(IIFE)**. 
+
+```javascript
+// IIFE
+var greetFunc = function(name) {
+    console.log('Hello ' + name);
+}('ken'); // outputs 'Hello ken'
+
+```
+
+Ok. that was weird but understandable.
+In fact, it seems weird to set a variable but we are actually returning nothing, 
+so greetFunc would be undefined. 
+
+we can actually return whatever we want, from strings, to functions as well.
+Let's do that, just for the sake to use the variable greetFunc.
+
+```javascript
+
+var greetFunc = function() {
+	return function(name) {
+		console.log('Hello ' + name);
+	}
+}();
+console.log(greetFunc); // outputs function(name) { console.log('Hello ' + name)}
+greetFunc('jim'); // outputs 'Hello jim'
+
+```
+
+But what if we want to do an IIFE on function statements?
+Could it work if we just at a double parenthesis after the function statement?
+
+```javascript
+function greet(name) {
+    console.log('Hello ' + name);
+}() // gives error
+
+```
+
+No! it actually gives an error...
+And this is because as the syntax parser sees the actual string function
+and recognizes it as a function statement, and thus expects a name for it.
+
+A good way and widely used way to get around this is to just put the 
+function statement IIFE inside parenthesis.
+
+Parenthesis are only used with expressions, 
+never a statements, like if or for loops.
+Parenthesis works as a grouping operator.
+If the syntax parser sees the parenthesis first,
+but not the exact function string itself,
+it would not complain about not having a title.
+
+Let's look at the code.
+
+```javascript
+
+var firstname = 'Jon';
+
+(function(name) {
+    var greeting = 'Hello';
+    console.log(greeting + ' ' + name);
+}(firstname)); // outputs 'Hello Jon'
+
+
+```
+
+I hope this makes sense for anyone watching this 
+and to future me also.
+
+{% include disqus2.html %}
