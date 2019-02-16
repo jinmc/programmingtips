@@ -3,7 +3,7 @@
 layout: post
 comments: true
 title:  "Closures in Javascript"
-date:   2019-02-15
+date:   2019-02-16
 tags: [Javascript] 
 categories: javascript 
 ---
@@ -65,7 +65,7 @@ function greet(something) {
 }
 
 var sayHi = greet('Hi');
-sayHi('Bob');
+sayHi('Bob'); // outputs 'Hi Bob'
 ```
 
 Here it is more clear that the greet execution context would be removed after 
