@@ -68,7 +68,11 @@ entries:
   - title: Frameworks
     output: web
     folderitems:
-    
+
+    - title: Magento
+      url: /magento
+      output: web    
+
     - title: ASP.NET WebForms
       url: /webforms
       output: web

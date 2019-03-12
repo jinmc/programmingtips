@@ -3,7 +3,7 @@
 layout: post
 comments: true
 title:  "Function Factories using Closures"
-date:   2019-02-16
+date:   2019-02-17
 tags: [Javascript] 
 categories: javascript 
 ---
