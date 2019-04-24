@@ -140,7 +140,27 @@ Layout handle would look like this.
 </page>
 
 ```
+So how actually do we get to the page?
+The solution is to set a adminhtml menu so that it can redirect to it.
 
+```
+// app/code/Pulsestorm/HelloAdminBackend/etc/adminhtml/menu.xml
 
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Pulsestorm_HelloAdminBackend::unique_identifier"
+             resource="Magento_GoogleAnalytics::google"
+             title="helloAdmin Backendmenu"
+             action="pulsestorm_helloadminbackend/index/index"
+             module="Pulsestorm_HelloAdminBackend"
+             sortOrder="10"/></menu>
+</config>
+
+```
+id is whatever it can be if it's unique.
+Resource is what you have in ACL.
+title is what it will show on the menu.
+action and module are quite self-explanatory.
 
 {% include disqus2.html %}
