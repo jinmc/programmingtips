@@ -17,7 +17,7 @@ ObjectManager is a tool made by Magento 2 system developers and handles objects 
 Alanstorm shows that we can actually call the objectmanger by itself, 
 by this code.
 
-```
+```php
 <?php
 namespace MyVendor\MyProgram\MyClass;
 use \Magento\Framework\ObjectManagerInterface;
@@ -49,7 +49,7 @@ With the objectManager, we can use its power at its greates. The greates power i
 and get is a singleton method, that is, the get method creates an instance when not initiated,
 and returns the initiated instanc.
 
-```
+```php
 protected function execute() 
 {
     // provided that we have the getObjectManager method
