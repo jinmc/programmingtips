@@ -72,6 +72,29 @@ protected function execute()
 There is actually a whole lot more to get the echo print on the frontend,
 and because of that alan uses the CLI for debugging purposes.
 <br><br>
-Note that it will 
+Note that it will output the original message if create a new object, 
+but it will output 'Hello PHP' if we did $manager->get('') in the last code. 
+<br><br>
+As we've seen above, the object is not instantiated by new command, 
+but it is instantiated through dependency injection, 
+and the type hint is the must. In Java world, this is common as 
+in function parameters it is mandatory to typecast it, but php it is not.
+Actually, magento is using typescript as a way for reflection as it auto-gets.
+This happens because as PHP is not a compile language but a scripting language,
+there is no compile step do the type casting manually.
+<br><br>
+Magento uses objectmanager in this way, 
+it also creates itself with auto-dependency injection.
+The drawbacks of this would be that it is difficult to follow,
+but there are other pros, such as, easy testing and class rewrites with di.xml file,
+and application-wide management of objects by object manager.
+<br><br>
+Two things to keep in mind.
+Magento is configuration over convention language.
+It knows the entry points of where the objects get instantiated.
+And another is, henever di.xml don't seem like working, clean the cache and try again!
+
+
+
 
 {% include disqus2.html %}
