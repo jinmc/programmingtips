@@ -29,7 +29,7 @@ feedback_email: jinmo55555@gmail.com
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 baseurl: "/programmingTips" # the subpath of your site, e.g. /blog
-url: "http://jinmc.github.io/programmingTips" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jinmc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: Idonthavetwitter
 github_username:  jinmc
 

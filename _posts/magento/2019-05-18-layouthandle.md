@@ -50,7 +50,7 @@ The custom_handle will look like this.
 
 ```
 Here, we are loading a `1column` page layout.
-Without adding this page layout xml, 
+Without adding this page layout xml, it will render a blank page with  
 
 
 {% include disqus2.html %}
