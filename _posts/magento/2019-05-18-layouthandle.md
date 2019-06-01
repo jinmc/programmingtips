@@ -51,6 +51,40 @@ The custom_handle will look like this.
 ```
 Here, we are loading a `1column` page layout.
 Without adding this page layout xml, it will render a blank page with  
+just basic javascript and css files. So it means the html layout files is within the page layout.
+We can think of layout handles as an event firing.
+Even though we added a custom handle here, magento pages will always load two pages for sure,
+first, the `default` handle, and the `full action name` handle.
+The `default` handle will fire on every page.
+The `full action name` will be modulename and controller name, action name combined as all lowercase with underbar. That means, even though we comment out the addHandle part and make a xml file as `mymodule_mymethod_index_index` then we would be able to see the same result.
+<br><br>
+Also, this is an example of displaying some text in a file
+It is within page_configuration file pointing as a xsd, 
+and the content should be inside the body, and find the container called content,
+and display the text inside it.
+
+```
+// app/code/MyVendor/MyMethod/view/frontend/layout/mymethod_mymodule_index_index.xml 
+
+<page xsi:noNamespaceSchemaLocation="urn:magento:framework: View/Layout/etc/page_configuration.xsd" layout="1column">
+  <body>
+    <referenceContainer name="content">
+      <block name="pulsestorm_nofrills_chapter3_text" class="Magento\Framework\View\Element\Text">
+        <arguments>
+          <argument name="text" xsi:type="string">
+            This is a test.
+          </argument> 
+        </arguments>
+      </block> 
+    </referenceContainer>
+  </body> 
+</page>
+
+```
+
+
+
+
 
 
 {% include disqus2.html %}
