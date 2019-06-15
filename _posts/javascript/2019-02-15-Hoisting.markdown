@@ -54,6 +54,11 @@ and variable declarations and then set up undefined for variables
 and copy the functions as-is, so that function b shown above was able to 
 execute without error.
 
+But why does calling b() is bringing the value but console logging 
+is outputting an undefined? It turns out that for function hoisting,
+javascript hoists not only the value undefined but the whole javascript function itself.
+That is why b() works.
+
 However, it is bad practice to rely on hoisting,
 because it could lead to many problematic situations,
 so just declare it beforehands and then using would be safe.
