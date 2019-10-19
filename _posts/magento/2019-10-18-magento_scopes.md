@@ -40,5 +40,14 @@ It makes sense that in some country it might be pricier or cheaper than the othe
 For customer account, we can set the customer account only for the specific website, or we can make it global, 
 so that all the accounts can be accessed on the same website.
 </p>
+
+<p>
+For payment methods, it can be configured at the website level. Also, the checkout process takes place in the website level,
+although some display options can be configured on each store view.
+</p>
+
+<p>
+For Currency, it can be assigned on different base currency. Although different display currency might appear to the customer, according to the locale of the store view.
+</p>
 {% include disqus2.html %}
 
