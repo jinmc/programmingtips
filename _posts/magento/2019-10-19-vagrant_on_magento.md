@@ -118,7 +118,10 @@ sudo apt install phpmyadmin
 
 <p>
 After all this, we can install magento on the command line.
+Going through all this, I have a error in the admin panel as something went wrong, and some technical problem happened with the server and created.
 </p>
+https://tutes.in/solved-magento-2-error-a-technical-problem-with-the-server-created-an-error-try-again-to-continue-what-you-were-doing-if-the-problem-persists-try-again-later/
+<p>This is the link for solving the issue.</p>
 
 
 {% include disqus2.html %}
