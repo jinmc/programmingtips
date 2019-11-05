@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Request Flow Processing (2)"
 date:   2019-10-22
-categories: magento
+categories: magentobackend
 ---
 
 <ul>

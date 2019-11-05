@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Object Manager and Automatic Dependency Injection"
 date:   2019-05-05
-categories: magento
+categories: magentobackend
 ---
 
 disclaimer : This article heavily depends on the series object manager  of alanstorm.com

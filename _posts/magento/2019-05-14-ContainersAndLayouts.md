@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Frontend - Containers and Layouts"
 date:   2019-05-14
-categories: magento
+categories: magentofrontend
 ---
 
 Continer is similar to a block but different by three ways.

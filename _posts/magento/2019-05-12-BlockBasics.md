@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Frontend - Block Basics"
 date:   2019-05-12
-categories: magento
+categories: magentofrontend
 ---
 
 Disclaimer : Most of the knowledge here is from the alanstorm's book NoFrillsLayout which is 25$. 

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 - Service Contract"
 date:   2019-10-28
-categories: magento
+categories: magentobackend
 ---
 
 <p>

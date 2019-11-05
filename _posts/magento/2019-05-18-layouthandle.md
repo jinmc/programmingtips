@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Frontend - Layout Handle"
 date:   2019-05-18
-categories: magento
+categories: magentofrontend
 ---
 
 Even though making everything in the controller and echoing is straightforward,

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Scope"
 date:   2019-10-18
-categories: magento
+categories: magentoetc
 ---
 
 reference link : https://docs.magento.com/m2/ce/user_guide/configuration/scope.html

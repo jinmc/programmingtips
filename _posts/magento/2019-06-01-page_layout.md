@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Frontend - Page Layout"
 date:   2019-06-01
-categories: magento
+categories: magentofrontend
 ---
 
 Page Layouts are formats in magento that enable us to use the structure of the 

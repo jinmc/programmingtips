@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Themes"
 date:   2019-10-27
-categories: magento
+categories: magentofrontend
 ---
 
 <p>

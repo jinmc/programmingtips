@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Request Flow Processing (1)"
 date:   2019-10-20
-categories: magento
+categories: magentobackend
 ---
 <p>
 Request flow processing is a complicated subject in Magento 2.

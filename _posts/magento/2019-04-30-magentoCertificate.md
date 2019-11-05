@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 Associate Developer Certificate"
 date:   2019-04-30
-categories: magento
+categories: magentoetc
 ---
 
 I took the Magento Associate Certificate on April 27, 2019.

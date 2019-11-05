@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "AdminHtml of Magento 2"
 date:   2019-04-16
-categories: magento
+categories: magentobackend
 ---
 
 Reference : alanstorm.com/category/magento-2/

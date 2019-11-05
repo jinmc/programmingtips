@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Magento 2 on Vagrant"
 date:   2019-10-19
-categories: magento
+categories: magentobackend
 ---
 
 <p>
