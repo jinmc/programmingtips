@@ -4,18 +4,22 @@ entries:
   product: Sidebar Navigation
   folders:
 
-  # - title:
-    # output: pdf
-    # type: frontmatter
-    # folderitems:
-    # - title:
-      # url: /titlepage.html
-      # output: pdf
-      # type: frontmatter
-    # - title:
-      # url: /tocpage.html
-      # output: pdf
-      # type: frontmatter
+  - title: Magento
+    output: web
+    folderitems:
+
+    - title: Magento Backend
+      url: /magento\/backend
+      output: web
+
+    - title: Magento Frontend
+      url: /magento\/frontend
+      output: web
+
+    - title: Etc
+      url: /magento\/etc
+      output: web
+
 
   - title: Programming Languages
     output: web
@@ -69,10 +73,6 @@ entries:
     output: web
     folderitems:
 
-    - title: Magento
-      url: /magento
-      output: web    
-
     - title: ASP.NET WebForms
       url: /webforms
       output: web
@@ -96,7 +96,7 @@ entries:
     - title: Laravel
       url: /laravel
       output: web
-      
+
   - title: CsSkills
     output: web
     folderitems:
@@ -115,6 +115,10 @@ entries:
 
     - title: Bit Manipulation
       url: /bitManipulation
+      output: web
+
+    - title: Security
+      url: /security
       output: web
       
   - title: Algorithms

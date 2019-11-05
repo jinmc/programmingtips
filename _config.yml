@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a personal repository to write blog posts for programming tips
   I don't want to miss. Any comments would be welcomed. Thank you.
 
-topnav_title: Jinmo's ProgrammingTips
+topnav_title: Jim's ProgrammingTips
 
 feedback_email: jinmo55555@gmail.com
 
@@ -48,6 +48,19 @@ jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-123967699-1          # Required - replace with your tracking id
     anonymizeIp: true      # Optional - Default: false - set to true for anonymized tracking
+
+## categories page
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
