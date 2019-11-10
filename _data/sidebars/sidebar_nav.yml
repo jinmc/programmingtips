@@ -26,47 +26,47 @@ entries:
     folderitems:
 
     - title: C#
-      url: /csharp
+      url: /language\/csharp
       output: web
 
     - title: PHP
-      url: /php
+      url: /language\/php
       output: web
       
     # - title: Java
-      # url: /java
+      # url: /language\/java
       # output: web
       
     - title: Javascript
-      url: /javascript
+      url: /language\/javascript
       output: web
       
     - title: SQL
-      url: /sql
+      url: /language\/sql
       output: web
       
     - title: Ruby
-      url: /ruby
+      url: /language\/ruby
       output: web
 
     - title: Java
-      url: /java
+      url: /language\/java
       output: web
       
     - title: C++
-      url: /CPP
+      url: /language\/CPP
       output: web
 
     - title: Python
-      url: /python
+      url: /language\/python
       output: web
 
     - title: Html
-      url: /html
+      url: /language\/html
       output: web
 
     - title: CSS
-      url: /css
+      url: /language\/css
       output: web
       
   - title: Frameworks
