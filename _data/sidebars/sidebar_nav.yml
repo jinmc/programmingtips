@@ -74,27 +74,27 @@ entries:
     folderitems:
 
     - title: ASP.NET WebForms
-      url: /webforms
+      url: /framework\/webforms
       output: web
       
     - title: ASP.NET MVC
-      url: /dotnetmvc
+      url: /framework\/dotnetmvc
       output: web
 
     - title: ASP.NET Winforms
-      url: /winforms
+      url: /framework\/winforms
       output: web
       
     - title: React JS
-      url: /react
+      url: /framework\/react
       output: web    
 
     - title: Node JS
-      url: /node
+      url: /framework\/node
       output: web   
 
     - title: Laravel
-      url: /laravel
+      url: /framework\/laravel
       output: web
 
   - title: CsSkills
