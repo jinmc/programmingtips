@@ -126,15 +126,15 @@ entries:
     folderitems:
 
     - title: Data Structure
-      url: datastructure
+      url: /algorithm\/datastructure
       output: web    
     
     - title: sorting
-      url: sorting
+      url: /algorithm\/sorting
       output: web
 
     - title: graphs
-      url: graphs
+      url: /algorithm\/graphs
       output: web
       
     # - title: problem solving
