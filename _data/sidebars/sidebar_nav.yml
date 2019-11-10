@@ -102,23 +102,23 @@ entries:
     folderitems:
       
     - title: Git
-      url: /git
+      url: /csskill\/git
       output: web
 
     - title: Software Engineering
-      url: /practices
+      url: /csskill\/practices
       output: web
 
     - title: Regular Expressions
-      url: /regExp
+      url: /csskill\/regExp
       output: web
 
     - title: Bit Manipulation
-      url: /bitManipulation
+      url: /csskill\/bitManipulation
       output: web
 
     - title: Security
-      url: /security
+      url: /csskill\/security
       output: web
       
   - title: Algorithms
