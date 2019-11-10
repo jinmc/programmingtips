@@ -171,9 +171,9 @@ entries:
     folderitems:
 
     - title: About Life
-      url: /life
+      url: /noncs\/life
       output: web
       
     - title: About anything else
-      url: /else
+      url: /noncs\/else
       output: web
