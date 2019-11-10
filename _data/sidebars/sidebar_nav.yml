@@ -97,6 +97,16 @@ entries:
       url: /framework\/laravel
       output: web
 
+    - title: Jekyll
+      url: /framework\/jekyll
+      output: web
+
+    - title: Drupal
+      url: /framework\/drupal
+      output: web
+
+
+
   - title: CsSkills
     output: web
     folderitems:
@@ -143,17 +153,17 @@ entries:
       
 
       
-  - title: Programming as a hobby
-    output: web
-    folderitems:
+#  - title: Programming as a hobby
+#    output: web
+#    folderitems:
 
-    - title: Jekyll
-      url: /jekyll
-      output: web
+#    - title: Jekyll
+#      url: /jekyll
+#      output: web
 
-    - title: Drupal
-      url: /drupal
-      output: web      
+#    - title: Drupal
+#      url: /drupal
+#      output: web      
 
       
   - title: NonCS
