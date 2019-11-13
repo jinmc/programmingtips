@@ -16,10 +16,15 @@ entries:
       url: /magento\/frontend
       output: web
 
+    - title: Magento Javascript
+      url: /magento\/javascript
+      output: web
+
     - title: Etc
       url: /magento\/etc
       output: web
 
+    
 
   - title: Programming Languages
     output: web
